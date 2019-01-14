@@ -1,0 +1,31 @@
+#include <iostream>
+#include "ExprGenerator.h"
+#include <time.h>
+#include <cstdlib>
+#include <iostream>
+#include <ctime>
+
+using namespace std;
+
+int main()
+{
+	const int FIXED_SEED = 0;
+	std::srand((uint)std::time(0));
+	std::string str = "4*(2|6)";
+	Expression_Generator f(str);
+	std::string outStr;
+	int outConsumed = 0;
+
+	for (int i = 0; i < 10; i++)
+	{
+		Constraint r;
+		r.constrainLast = true;
+		r.lastChar = "2";
+
+		const bool res = f.GenerateRandom(10, outStr, outConsumed, &r);
+		cout << outStr << endl;
+	}
+	
+	return 0;
+}
+

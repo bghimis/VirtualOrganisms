@@ -1,0 +1,211 @@
+
+-----  Best solutions on root !!:  ----- 
+ROOT: Local best option from children -   Cell: (2, 7) |(4,2)  66 |
+Other options:  Cell: (0, 3) |(4,2)  26 | Cell: (2, 2) |(4,2)  31 | Cell: (2, 3) |(4,2)  61 | Cell: (4, 3) |(0,2)  29 | Cell: (4, 4) |(3,2)  32 | Cell: (3, 4) |(3,2)  61 | Cell: (2, 4) |(5,6)  18 | Cell: (1, 4) |(1,3)  31 | Cell: (0, 4) |(4,5)  15 | Cell: (0, 5) |(2,5)  28 | Cell: (0, 6) |(2,5)  60 | Cell: (0, 7) |(4,5)  58 | Cell: (2, 6) |(4,2)  32 | Cell: (4, 6) |(4,2)  33 | Cell: (4, 7) |(3,2)  35 | Cell: (3, 7) |(5,4)  27 | Cell: (2, 7) |(4,2)  66 | Cell: (2, 8) |(4,2)  37 | Cell: (3, 9) |(5,4)  28 | Cell: (2, 9) |(5,3)  30 | Cell: (1, 9) |(5,4)  33 |
+ PREVIOUS AVG FLOW: 26 !! NEW AVG FLOW: 66
+ 
+
+Board AFTER reconfiguration: 
+Current board: 
+   0  1  2  3  4  5  6  7  8  9 
+0  *  *  *  4  4  4  4  4  4  6 
+1  *  *  *  *  2  *  *  *  *  2 
+2  *  *  4  4  2  *  *  *  4  2 
+3  *  *  *  *  2  *  *  *  *  2 
+4  *  4  4  4  2  *  *  *  *  * 
+5  *  *  2  *  *  *  *  *  *  * 
+6  *  4  2  *  *  *  *  *  *  * 
+7  *  *  *  *  *  *  *  *  *  * 
+8  *  *  *  *  *  *  *  *  *  * 
+9  *  *  *  *  *  *  *  *  *  * 
+Current sources ((row,col - power):  (0, 0) - 100 (4, 1) - 50
+
+
+
+----- Elastic model analysis BEGIN ----- num resources left to rent: 10
+ADD RESOURCES - Analyze start
+ Trying resource Symbol-2 at position 1,4 and benefit diff to before is -29186.2(flow before: 66.0084, after: 36.9223
+ Trying resource Symbol-2 at position 2,4 and benefit diff to before is -29186.2(flow before: 66.0084, after: 36.9223
+ Trying resource Symbol-2 at position 3,4 and benefit diff to before is -30394.5(flow before: 66.0084, after: 35.714
+ Trying resource Symbol-2 at position 4,4 and benefit diff to before is -30394.5(flow before: 66.0084, after: 35.714
+ Trying resource Symbol-2 at position 5,2 and benefit diff to before is -427.938(flow before: 66.0084, after: 65.6805
+ Trying resource Symbol-2 at position 6,2 and benefit diff to before is -427.938(flow before: 66.0084, after: 65.6805
+ Trying resource Symbol-2 at position 7,1 and benefit diff to before is -427.938(flow before: 66.0084, after: 65.6805
+ Trying resource Symbol-2 at position 1,9 and benefit diff to before is -313.508(flow before: 66.0084, after: 65.7949
+ Trying resource Symbol-2 at position 2,9 and benefit diff to before is -313.508(flow before: 66.0084, after: 65.7949
+ Trying resource Symbol-2 at position 4,9 and benefit diff to before is -181.516(flow before: 66.0084, after: 65.9269
+ Trying resource Symbol-4 at position 0,8 and benefit diff to before is -17718.9(flow before: 66.0084, after: 48.3895
+ Trying resource Symbol-4 at position 0,7 and benefit diff to before is -17718.9(flow before: 66.0084, after: 48.3895
+ Trying resource Symbol-4 at position 0,6 and benefit diff to before is -17718.9(flow before: 66.0084, after: 48.3895
+ Trying resource Symbol-4 at position 0,5 and benefit diff to before is -17718.9(flow before: 66.0084, after: 48.3895
+ Trying resource Symbol-4 at position 0,4 and benefit diff to before is -17718.9(flow before: 66.0084, after: 48.3895
+ Trying resource Symbol-4 at position 0,2 and benefit diff to before is 4761.11(flow before: 66.0084, after: 70.8695
+ Trying resource Symbol-4 at position 2,3 and benefit diff to before is 2150(flow before: 66.0084, after: 68.2584
+ Trying resource Symbol-4 at position 2,1 and benefit diff to before is 2150(flow before: 66.0084, after: 68.2584
+ Trying resource Symbol-4 at position 4,3 and benefit diff to before is -27629(flow before: 66.0084, after: 38.4794
+ Trying resource Symbol-4 at position 4,2 and benefit diff to before is -27629(flow before: 66.0084, after: 38.4794
+ Trying resource Symbol-4 at position 4,0 and benefit diff to before is -25676.8(flow before: 66.0084, after: 40.4316
+ Trying resource Symbol-4 at position 6,0 and benefit diff to before is 378.32(flow before: 66.0084, after: 66.4868
+ Trying resource Symbol-4 at position 2,7 and benefit diff to before is 73.5547(flow before: 66.0084, after: 66.182
+
+Best found result found Symbol- 4 Pos- 0,2 diff benefit 4761.11
+ADD RESOURCES - Analyze start
+ Trying resource Symbol-2 at position 1,4 and benefit diff to before is -28817.7(flow before: 70.8695, after: 42.1519
+ Trying resource Symbol-2 at position 2,4 and benefit diff to before is -28817.7(flow before: 70.8695, after: 42.1519
+ Trying resource Symbol-2 at position 3,4 and benefit diff to before is -30026(flow before: 70.8695, after: 40.9435
+ Trying resource Symbol-2 at position 4,4 and benefit diff to before is -30026(flow before: 70.8695, after: 40.9435
+ Trying resource Symbol-2 at position 5,2 and benefit diff to before is -427.93(flow before: 70.8695, after: 70.5416
+ Trying resource Symbol-2 at position 6,2 and benefit diff to before is -427.93(flow before: 70.8695, after: 70.5416
+ Trying resource Symbol-2 at position 7,1 and benefit diff to before is -427.93(flow before: 70.8695, after: 70.5416
+ Trying resource Symbol-2 at position 1,9 and benefit diff to before is -313.508(flow before: 70.8695, after: 70.656
+ Trying resource Symbol-2 at position 2,9 and benefit diff to before is -313.508(flow before: 70.8695, after: 70.656
+ Trying resource Symbol-2 at position 4,9 and benefit diff to before is -181.516(flow before: 70.8695, after: 70.788
+ Trying resource Symbol-4 at position 0,8 and benefit diff to before is -8080.01(flow before: 70.8695, after: 62.8895
+ Trying resource Symbol-4 at position 0,7 and benefit diff to before is -8080.01(flow before: 70.8695, after: 62.8895
+ Trying resource Symbol-4 at position 0,6 and benefit diff to before is -8080.01(flow before: 70.8695, after: 62.8895
+ Trying resource Symbol-4 at position 0,5 and benefit diff to before is -8080.01(flow before: 70.8695, after: 62.8895
+ Trying resource Symbol-4 at position 0,4 and benefit diff to before is -8080.01(flow before: 70.8695, after: 62.8895
+ Trying resource Symbol-4 at position 0,3 and benefit diff to before is 13788.9(flow before: 70.8695, after: 84.7584
+ Trying resource Symbol-4 at position 0,1 and benefit diff to before is 13788.9(flow before: 70.8695, after: 84.7584
+ Trying resource Symbol-4 at position 2,3 and benefit diff to before is 2150.01(flow before: 70.8695, after: 73.1196
+ Trying resource Symbol-4 at position 2,1 and benefit diff to before is 2150.01(flow before: 70.8695, after: 73.1196
+ Trying resource Symbol-4 at position 4,3 and benefit diff to before is -27260.6(flow before: 70.8695, after: 43.709
+ Trying resource Symbol-4 at position 4,2 and benefit diff to before is -27260.6(flow before: 70.8695, after: 43.709
+ Trying resource Symbol-4 at position 4,0 and benefit diff to before is -25308.3(flow before: 70.8695, after: 45.6612
+ Trying resource Symbol-4 at position 6,0 and benefit diff to before is 378.313(flow before: 70.8695, after: 71.3479
+ Trying resource Symbol-4 at position 2,7 and benefit diff to before is 73.5547(flow before: 70.8695, after: 71.0431
+
+Best found result found Symbol- 4 Pos- 0,3 diff benefit 13788.9
+ADD RESOURCES - Analyze start
+ Trying resource Symbol-2 at position 1,1 and benefit diff to before is -13988.9(flow before: 84.7584, after: 70.8695
+ Trying resource Symbol-2 at position 1,4 and benefit diff to before is -28206.6(flow before: 84.7584, after: 56.6519
+ Trying resource Symbol-2 at position 2,4 and benefit diff to before is -28206.6(flow before: 84.7584, after: 56.6519
+ Trying resource Symbol-2 at position 3,4 and benefit diff to before is -29414.9(flow before: 84.7584, after: 55.4435
+ Trying resource Symbol-2 at position 4,4 and benefit diff to before is -29414.9(flow before: 84.7584, after: 55.4435
+ Trying resource Symbol-2 at position 5,2 and benefit diff to before is -427.938(flow before: 84.7584, after: 84.4305
+ Trying resource Symbol-2 at position 6,2 and benefit diff to before is -427.938(flow before: 84.7584, after: 84.4305
+ Trying resource Symbol-2 at position 7,1 and benefit diff to before is -427.938(flow before: 84.7584, after: 84.4305
+ Trying resource Symbol-2 at position 1,9 and benefit diff to before is -313.508(flow before: 84.7584, after: 84.5449
+ Trying resource Symbol-2 at position 2,9 and benefit diff to before is -313.508(flow before: 84.7584, after: 84.5449
+ Trying resource Symbol-2 at position 4,9 and benefit diff to before is -181.516(flow before: 84.7584, after: 84.6769
+ Trying resource Symbol-4 at position 0,8 and benefit diff to before is 38711(flow before: 84.7584, after: 123.569
+ Trying resource Symbol-4 at position 0,7 and benefit diff to before is 38711(flow before: 84.7584, after: 123.569
+ Trying resource Symbol-4 at position 0,6 and benefit diff to before is 38711(flow before: 84.7584, after: 123.569
+ Trying resource Symbol-4 at position 0,5 and benefit diff to before is 38711(flow before: 84.7584, after: 123.569
+ Trying resource Symbol-4 at position 0,4 and benefit diff to before is 38711(flow before: 84.7584, after: 123.569
+ Trying resource Symbol-4 at position 0,3 and benefit diff to before is 65141.6(flow before: 84.7584, after: 150
+ Trying resource Symbol-4 at position 0,2 and benefit diff to before is 65141.6(flow before: 84.7584, after: 150
+ Trying resource Symbol-4 at position 0,0 and benefit diff to before is 65141.6(flow before: 84.7584, after: 150
+ Trying resource Symbol-4 at position 2,3 and benefit diff to before is 2150(flow before: 84.7584, after: 87.0084
+ Trying resource Symbol-4 at position 2,1 and benefit diff to before is 2150(flow before: 84.7584, after: 87.0084
+ Trying resource Symbol-4 at position 4,3 and benefit diff to before is -26649.5(flow before: 84.7584, after: 58.209
+ Trying resource Symbol-4 at position 4,2 and benefit diff to before is -26649.5(flow before: 84.7584, after: 58.209
+ Trying resource Symbol-4 at position 4,0 and benefit diff to before is -24697.2(flow before: 84.7584, after: 60.1612
+ Trying resource Symbol-4 at position 6,0 and benefit diff to before is 378.32(flow before: 84.7584, after: 85.2368
+ Trying resource Symbol-4 at position 2,7 and benefit diff to before is 73.5547(flow before: 84.7584, after: 84.932
+
+Best found result found Symbol- 4 Pos- 0,3 diff benefit 65141.6
+ADD RESOURCES - Analyze start
+ Trying resource Symbol-2 at position 1,0 and benefit diff to before is -65341.6(flow before: 150, after: 84.7584
+ Trying resource Symbol-2 at position 1,4 and benefit diff to before is -26530.6(flow before: 150, after: 123.569
+ Trying resource Symbol-2 at position 2,4 and benefit diff to before is -26530.6(flow before: 150, after: 123.569
+ Trying resource Symbol-2 at position 3,4 and benefit diff to before is -28961.1(flow before: 150, after: 121.139
+ Trying resource Symbol-2 at position 4,4 and benefit diff to before is -28961.1(flow before: 150, after: 121.139
+ Trying resource Symbol-2 at position 5,2 and benefit diff to before is -100(flow before: 150, after: 150
+ Trying resource Symbol-2 at position 6,2 and benefit diff to before is -100(flow before: 150, after: 150
+ Trying resource Symbol-2 at position 7,1 and benefit diff to before is -100(flow before: 150, after: 150
+ Trying resource Symbol-2 at position 1,9 and benefit diff to before is -100(flow before: 150, after: 150
+ Trying resource Symbol-2 at position 2,9 and benefit diff to before is -100(flow before: 150, after: 150
+ Trying resource Symbol-2 at position 4,9 and benefit diff to before is -100(flow before: 150, after: 150
+ Trying resource Symbol-4 at position 2,3 and benefit diff to before is -100(flow before: 150, after: 150
+ Trying resource Symbol-4 at position 2,1 and benefit diff to before is -100(flow before: 150, after: 150
+ Trying resource Symbol-4 at position 4,3 and benefit diff to before is -28961.1(flow before: 150, after: 121.139
+ Trying resource Symbol-4 at position 4,2 and benefit diff to before is -28961.1(flow before: 150, after: 121.139
+ Trying resource Symbol-4 at position 4,0 and benefit diff to before is -26530.6(flow before: 150, after: 123.569
+ Trying resource Symbol-4 at position 6,0 and benefit diff to before is -100(flow before: 150, after: 150
+ Trying resource Symbol-4 at position 2,7 and benefit diff to before is -100(flow before: 150, after: 150
+
+No valid results found for resources
+
+----- END Elastic model analysis -----
+
+
+-----  Best solutions on root !!:  ----- 
+ROOT: Local best option from children -   Cell: (2, 2) |(2,7)  150 |
+Other options:  Cell: (0, 0) |(2,1)  87 | Cell: (0, 1) |(2,1)  77 | Cell: (2, 2) |(2,7)  150 | Cell: (2, 3) |(2,7)  150 | Cell: (4, 1) |(2,1)  113 | Cell: (6, 1) |(2,1)  150 | Cell: (6, 2) |(4,9)  150 | Cell: (5, 2) |(4,9)  150 | Cell: (4, 2) |(2,1)  123 | Cell: (4, 4) |(4,9)  109 | Cell: (3, 4) |(3,3)  121 | Cell: (2, 4) |(4,9)  105 | Cell: (1, 4) |(1,3)  123 | Cell: (0, 4) |(2,7)  15 | Cell: (0, 5) |(2,7)  19 | Cell: (0, 6) |(2,7)  28 | Cell: (0, 7) |(2,7)  41 | Cell: (2, 8) |(2,1)  150 | Cell: (3, 9) |(1,1)  150 | Cell: (2, 9) |(7,1)  150 | Cell: (1, 9) |(1,7)  150 |
+ PREVIOUS AVG FLOW: 150 !! NOT APPLYING ANY CHANGE BECAUSE CURRENT FLOW IS BETTER THAN EVERYTHING
+ 
+
+Board AFTER reconfiguration: 
+Current board: 
+   0  1  2  3  4  5  6  7  8  9 
+0  4  4  4  4  4  4  4  4  4  6 
+1  *  *  *  *  2  *  *  *  *  2 
+2  *  *  4  4  2  *  *  *  4  2 
+3  *  *  *  *  2  *  *  *  *  2 
+4  *  4  4  4  2  *  *  *  *  * 
+5  *  *  2  *  *  *  *  *  *  * 
+6  *  4  2  *  *  *  *  *  *  * 
+7  *  *  *  *  *  *  *  *  *  * 
+8  *  *  *  *  *  *  *  *  *  * 
+9  *  *  *  *  *  *  *  *  *  * 
+Current sources ((row,col - power):  (0, 0) - 100 (4, 1) - 50
+
+
+
+----- Elastic model analysis BEGIN ----- num resources left to rent: 7
+ADD RESOURCES - Analyze start
+ Trying resource Symbol-2 at position 1,0 and benefit diff to before is -65341.6(flow before: 150, after: 84.7584
+ Trying resource Symbol-2 at position 1,4 and benefit diff to before is -26530.6(flow before: 150, after: 123.569
+ Trying resource Symbol-2 at position 2,4 and benefit diff to before is -26530.6(flow before: 150, after: 123.569
+ Trying resource Symbol-2 at position 3,4 and benefit diff to before is -28961.1(flow before: 150, after: 121.139
+ Trying resource Symbol-2 at position 4,4 and benefit diff to before is -28961.1(flow before: 150, after: 121.139
+ Trying resource Symbol-2 at position 5,2 and benefit diff to before is -100(flow before: 150, after: 150
+ Trying resource Symbol-2 at position 6,2 and benefit diff to before is -100(flow before: 150, after: 150
+ Trying resource Symbol-2 at position 7,1 and benefit diff to before is -100(flow before: 150, after: 150
+ Trying resource Symbol-2 at position 1,9 and benefit diff to before is -100(flow before: 150, after: 150
+ Trying resource Symbol-2 at position 2,9 and benefit diff to before is -100(flow before: 150, after: 150
+ Trying resource Symbol-2 at position 4,9 and benefit diff to before is -100(flow before: 150, after: 150
+ Trying resource Symbol-4 at position 2,3 and benefit diff to before is -100(flow before: 150, after: 150
+ Trying resource Symbol-4 at position 2,1 and benefit diff to before is -100(flow before: 150, after: 150
+ Trying resource Symbol-4 at position 4,3 and benefit diff to before is -28961.1(flow before: 150, after: 121.139
+ Trying resource Symbol-4 at position 4,2 and benefit diff to before is -28961.1(flow before: 150, after: 121.139
+ Trying resource Symbol-4 at position 4,0 and benefit diff to before is -26530.6(flow before: 150, after: 123.569
+ Trying resource Symbol-4 at position 6,0 and benefit diff to before is -100(flow before: 150, after: 150
+ Trying resource Symbol-4 at position 2,7 and benefit diff to before is -100(flow before: 150, after: 150
+
+No valid results found for resources
+NO RESOURCES COULD BE ADDED GOING TO TRY AND REMOVE SOME
+REMOVE RESOURCES - Analyze start
+ Trying resource Symbol-4 at position 0,3 and benefit diff to before is -65141.6(flow before: 150, after: 84.7584
+ Trying resource Symbol-4 at position 0,2 and benefit diff to before is -65141.6(flow before: 150, after: 84.7584
+ Trying resource Symbol-4 at position 0,0 and benefit diff to before is -65141.6(flow before: 150, after: 84.7584
+
+No valid results found for resources
+NO RESOURCES COULD BE REMOVED 
+
+----- END Elastic model analysis -----
+
+
+-----  Best solutions on root !!:  ----- 
+ROOT: Local best option from children -   Cell: (2, 2) |(2,7)  150 |
+Other options:  Cell: (0, 0) |(2,1)  87 | Cell: (0, 1) |(2,1)  77 | Cell: (2, 2) |(2,7)  150 | Cell: (2, 3) |(2,7)  150 | Cell: (4, 1) |(2,1)  113 | Cell: (6, 1) |(2,1)  150 | Cell: (6, 2) |(4,9)  150 | Cell: (5, 2) |(4,9)  150 | Cell: (4, 2) |(2,1)  123 | Cell: (4, 4) |(4,9)  109 | Cell: (3, 4) |(3,3)  121 | Cell: (2, 4) |(4,9)  105 | Cell: (1, 4) |(1,3)  123 | Cell: (0, 4) |(2,7)  15 | Cell: (0, 5) |(2,7)  19 | Cell: (0, 6) |(2,7)  28 | Cell: (0, 7) |(2,7)  41 | Cell: (2, 8) |(2,1)  150 | Cell: (3, 9) |(1,1)  150 | Cell: (2, 9) |(7,1)  150 | Cell: (1, 9) |(1,7)  150 |
+ PREVIOUS AVG FLOW: 150 !! NOT APPLYING ANY CHANGE BECAUSE CURRENT FLOW IS BETTER THAN EVERYTHING
+ 
+
+Board AFTER reconfiguration: 
+Current board: 
+   0  1  2  3  4  5  6  7  8  9 
+0  4  4  4  4  4  4  4  4  4  6 
+1  *  *  *  *  2  *  *  *  *  2 
+2  *  *  4  4  2  *  *  *  4  2 
+3  *  *  *  *  2  *  *  *  *  2 
+4  *  4  4  4  2  *  *  *  *  * 
+5  *  *  2  *  *  *  *  *  *  * 
+6  *  4  2  *  *  *  *  *  *  * 
+7  *  *  *  *  *  *  *  *  *  * 
+8  *  *  *  *  *  *  *  *  *  * 
+9  *  *  *  *  *  *  *  *  *  * 
+Current sources ((row,col - power):  (0, 0) - 100 (4, 1) - 50
+
+

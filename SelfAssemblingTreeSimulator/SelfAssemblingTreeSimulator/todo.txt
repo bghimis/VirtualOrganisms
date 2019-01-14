@@ -1,0 +1,18 @@
+xoffLimit = e.col - 1;
+yStart= s.row  -1
+
+// Delete rows correctly!!
+
+for y in yStart, yoff-1
+   m(s.col, y)=2
+
+for x in s.col, xoff-1
+  m(x, yoff)=4
+
+for y in yoff, m.row-1
+  m(xoff, y) = 2
+
+for x in xoff, xoffLimi 
+  m(x, m.row) = 4
+
+newRootPos = xoff, m.row

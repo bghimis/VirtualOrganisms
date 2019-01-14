@@ -1,0 +1,64 @@
+ ------- ExpandInternalTree Best Pos: (3,12) Sym: 4 Benefit: 0
+ ------- ExpandExternalTree Best Pos: (5,9) Sym: 4 Benefit: 15.1111
+ ------- ExpandExternalTree Best Pos: (5,8) Sym: 4 Benefit: 16.1389
+ ------- ExpandExternalTree Best Pos: (5,7) Sym: 4 Benefit: 79.8611
+ ------- ExpandExternalTree Best Pos: (4,9) Sym:   Benefit: 18.75
+ ------- ExpandInternalTree Best Pos: (3,12) Sym: 4 Benefit: 0
+ ------- ExpandExternalTree Best Pos: (7,7) Sym: 7 Benefit: 15.1111
+ ------- ExpandExternalTree Best Pos: (6,7) Sym:   Benefit: 16.1389
+ ------- ExpandInternalTree Best Pos: (9,12) Sym: 4 Benefit: 0
+ ------- ExpandExternalTree Best Pos: (7,7) Sym: 7 Benefit: 15.1111
+ ------- ExpandExternalTree Best Pos: (6,7) Sym:   Benefit: 16.1389
+ ------- ExpandInternalTree Best Pos: (3,12) Sym: 4 Benefit: 0
+ ------- ExpandExternalTree Best Pos: (6,7) Sym: 7 Benefit: 31.25
+ ------- ExpandExternalTree Best Pos: (5,7) Sym:   Benefit: 79.8611
+ ------- ExpandInternalTree Best Pos: (8,12) Sym: 4 Benefit: 0
+ ------- ExpandExternalTree Best Pos: (6,7) Sym: 7 Benefit: 31.25
+ ------- ExpandExternalTree Best Pos: (5,7) Sym:   Benefit: 79.8611
+ ------- ExpandInternalTree Best Pos: (3,12) Sym: 4 Benefit: 0
+ ------- ExpandExternalTree Best Pos: (5,7) Sym: 7 Benefit: 111.111
+ ------- ExpandExternalTree Best Pos: (3,9) Sym: 4 Benefit: 11.1111
+ ------- ExpandExternalTree Best Pos: (3,8) Sym: 4 Benefit: 13.8889
+ ------- ExpandExternalTree Best Pos: (3,7) Sym: 4 Benefit: 63.8889
+ ------- ExpandExternalTree Best Pos: (2,9) Sym:   Benefit: 6.25
+ ------- ExpandInternalTree Best Pos: (7,12) Sym: 4 Benefit: 0
+ ------- ExpandExternalTree Best Pos: (5,7) Sym: 7 Benefit: 111.111
+ ------- ExpandExternalTree Best Pos: (3,10) Sym: 4 Benefit: 6.24999
+ ------- ExpandExternalTree Best Pos: (3,9) Sym: 4 Benefit: 4.86112
+ ------- ExpandExternalTree Best Pos: (3,8) Sym: 4 Benefit: 13.8889
+ ------- ExpandExternalTree Best Pos: (3,7) Sym:   Benefit: 63.8889
+ ------- ExpandInternalTree Best Pos: (3,12) Sym: 4 Benefit: 0
+ ------- ExpandExternalTree Best Pos: (4,7) Sym: 7 Benefit: 50
+ ------- ExpandExternalTree Best Pos: (3,7) Sym:   Benefit: 61.1111
+ ------- ExpandInternalTree Best Pos: (6,12) Sym: 4 Benefit: 0
+ ------- ExpandExternalTree Best Pos: (4,7) Sym: 7 Benefit: 50
+ ------- ExpandExternalTree Best Pos: (3,7) Sym:   Benefit: 61.1111
+ ------- ExpandInternalTree Best Pos: (3,12) Sym: 4 Benefit: 0
+ ------- ExpandExternalTree Best Pos: (3,7) Sym: 7 Benefit: 111.111
+ ------- ExpandExternalTree Best Pos: (5,3) Sym: 4 Benefit: 4
+ ------- ExpandExternalTree Best Pos: (3,5) Sym:   Benefit: 4
+ ------- ExpandInternalTree Best Pos: (5,12) Sym: 4 Benefit: 0
+ ------- ExpandExternalTree Best Pos: (3,7) Sym: 7 Benefit: 111.111
+ ------- ExpandExternalTree Best Pos: (5,3) Sym: 4 Benefit: 4
+ ------- ExpandExternalTree Best Pos: (3,5) Sym:   Benefit: 4
+ ------- ExpandInternalTree Best Pos: (3,12) Sym: 4 Benefit: 0
+ ------- ExpandExternalTree Best Pos: (2,7) Sym: 7 Benefit: 31.25
+ ------- ExpandExternalTree Best Pos: (2,5) Sym:   Benefit: 9.02778
+ ------- ExpandInternalTree Best Pos: (4,12) Sym: 4 Benefit: 0
+ ------- ExpandExternalTree Best Pos: (2,7) Sym: 7 Benefit: 31.25
+ ------- ExpandExternalTree Best Pos: (2,5) Sym:   Benefit: 9.02778
+ ------- ExpandInternalTree Best Pos: (3,12) Sym: 4 Benefit: 0
+ ------- ExpandExternalTree Best Pos: (1,7) Sym: 7 Benefit: 15.1111
+ ------- ExpandExternalTree Best Pos: (5,3) Sym: 4 Benefit: 6.04082
+ ------- ExpandExternalTree Best Pos: (3,3) Sym: 4 Benefit: 6.04082
+ ------- ExpandExternalTree Best Pos: (1,5) Sym:   Benefit: 6.04082
+ ------- ExpandInternalTree Best Pos: (3,12) Sym: 4 Benefit: 0
+ ------- ExpandExternalTree Best Pos: (1,7) Sym: 7 Benefit: 15.1111
+ ------- ExpandExternalTree Best Pos: (5,3) Sym: 4 Benefit: 6.04082
+ ------- ExpandExternalTree Best Pos: (1,9) Sym:   Benefit: 6.04082
+ ------- ExpandInternalTree Best Pos: (3,12) Sym: 4 Benefit: 0
+ ------- ExpandExternalTree Best Pos: (5,7) Sym: 7 Benefit: 111.111
+ ------- ExpandExternalTree Best Pos: (3,9) Sym: 4 Benefit: 11.1111
+ ------- ExpandExternalTree Best Pos: (3,8) Sym: 4 Benefit: 13.8889
+ ------- ExpandExternalTree Best Pos: (3,7) Sym: 4 Benefit: 63.8889
+ ------- ExpandExternalTree Best Pos: (2,9) Sym:   Benefit: 6.25

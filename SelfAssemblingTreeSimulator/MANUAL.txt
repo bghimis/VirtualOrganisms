@@ -1,0 +1,35 @@
+How to Build:
+=============
+
+On Linux: use make from SelfAssemblingTreeSimulator/SelfAssemblingTreeSimulator
+On Windows: You can use visual studio by openening SelfAssemblingTreeSimulator/SelfAssemblingTreeSimulator.sln
+
+
+How to Execute:
+===============
+A. Open config.ini which is self descriptive for different options/user configurations
+B. See below explanations and on screen messages
+
+///////////////////////////////
+
+Manual for step by step simulation from file.
+
+In the input file give one of the following commands:
+E							// Simulates g_simulationTicksForDataFlowEstimation ticks (Variable defiend in config.ini)
+R							// Reorganize
+S row column R				//  Removes a source. E.g. S 2 4 R => removes source located at row 2 column 4
+S row column M newPower		// Modifies the source located at row column to have a new specified power
+S row column A power		// Adds a source with the specified location and power 
+P							// Prints current board
+
+You can see the output of the execution in  in results.txt
+
+Others, not so important options when simulating for a file:
+O							// Reorganize and run g_simulationTicksForDataFlowEstimation - to see how it affects the flow
+Q							// exit
+U							// Undo
+S fileName					// Saves the current board in a file for further debugging
+
+///////////////////
+
+

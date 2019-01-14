@@ -1,0 +1,3 @@
+ ========= RESULTS ========== 
+Avg flow using static structure: 301.164
+Avg flow using dynamic structure: 455.579
