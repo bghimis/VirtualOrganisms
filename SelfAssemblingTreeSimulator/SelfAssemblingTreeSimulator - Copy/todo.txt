@@ -1,8 +1,0 @@
-
-
--> functions to internalCreateLinks
--> cutSubtree
-
--> reorganize set of functions
--> simulate Tick
-

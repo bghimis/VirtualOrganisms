@@ -1,9 +1,0 @@
-﻿  main.cpp
-c:\users\ciprian\dropbox\agapia\agapia thesis\aamas-2018\selfassemblingtreesimulator\selfassemblingtreesimulator\main.cpp(160): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(538): note: see declaration of 'strdup'
-c:\users\ciprian\dropbox\agapia\agapia thesis\aamas-2018\selfassemblingtreesimulator\selfassemblingtreesimulator\main.cpp(161): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
-  c:\program files (x86)\windows kits\10\include\10.0.16299.0\ucrt\string.h(538): note: see declaration of 'strdup'
-  SimulatorBoard.cpp
-  BoardObject.cpp
-  Generating Code...
-  SelfAssemblingTreeSimulator.vcxproj -> C:\Users\Ciprian\Dropbox\AGAPIA\Agapia thesis\AAMAS-2018\SelfAssemblingTreeSimulator\x64\Debug\SelfAssemblingTreeSimulator.exe

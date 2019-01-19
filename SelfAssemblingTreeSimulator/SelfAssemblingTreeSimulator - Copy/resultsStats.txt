@@ -1,2 +1,0 @@
-Avg flow using static structure: 2273.18
-Avg flow using dynamic structure: 4141.7
