@@ -64,8 +64,8 @@ int manhattanDist(const TablePos& p1, const TablePos& p2)
 
 void trimCommentsAndWhiteSpaces(std::string& str)
 {
-	static char* whitespaces = " \t";
-	static char* comments = "//";
+	static const char* whitespaces = " \t";
+	static const char* comments = "//";
 
 	// Eliminate comments
 	const int commentPos = (int)str.find(comments);
