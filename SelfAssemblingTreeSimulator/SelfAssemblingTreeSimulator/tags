@@ -1,0 +1,532 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/45968eff/
+ADD_SYMBOL_IF_NOT_EMPTY	ExprGenerator.h	/^#define ADD_SYMBOL_IF_NOT_EMPTY(/;"	d
+AvailablePosInfoAndDeltaScore	Cell.h	/^	AvailablePosInfoAndDeltaScore() : row(INVALID_POS), col(INVALID_POS), score(0.0f), selectedColu/;"	f	struct:AvailablePosInfoAndDeltaScore
+AvailablePosInfoAndDeltaScore	Cell.h	/^struct AvailablePosInfoAndDeltaScore$/;"	s
+AvailablePositionsToMove	Cell.h	/^typedef std::vector<AvailablePosInfoAndDeltaScore> AvailablePositionsToMove;$/;"	t	typeref:typename:std::vector<AvailablePosInfoAndDeltaScore>
+BOARD_OBJECT_H	BoardObject.h	/^#define BOARD_OBJECT_H$/;"	d
+BOARD_SKIP_CHARACTER	Utils.h	/^#define BOARD_SKIP_CHARACTER /;"	d
+BoardObject	BoardObject.cpp	/^BoardObject::BoardObject()$/;"	f	class:BoardObject
+BoardObject	BoardObject.cpp	/^BoardObject::BoardObject(const BoardObject& other)$/;"	f	class:BoardObject
+BoardObject	BoardObject.h	/^struct BoardObject$/;"	s
+BroadcastEventType	Cell.h	/^	enum BroadcastEventType$/;"	g	struct:Cell
+BufferedTrafficData	Utils.h	/^	BufferedTrafficData(float maxFlowSize) :m_maxFlowSize(maxFlowSize), m_value(0.0f){}$/;"	f	struct:BufferedTrafficData
+BufferedTrafficData	Utils.h	/^struct BufferedTrafficData$/;"	s
+Build_Parse_Tree	ExprGenerator.h	/^	static Expression_Node Build_Parse_Tree(std::vector<std::string>::const_iterator & it, std::vec/;"	f	class:Expression_Parser	typeref:typename:Expression_Node
+CELL_EXTERIOR	Cell.h	/^	CELL_EXTERIOR = 0x06,$/;"	e	enum:CellType
+CELL_H	Cell.h	/^#define CELL_H$/;"	d
+CELL_INTERIOR	Cell.h	/^	CELL_INTERIOR = 0x04,$/;"	e	enum:CellType
+CELL_MEMBRANE	Cell.h	/^	CELL_MEMBRANE = 0x02, \/\/ default for tree-collector model$/;"	e	enum:CellType
+CELL_NOTSET	Cell.h	/^	CELL_NOTSET = 0x01,$/;"	e	enum:CellType
+COMPUTE_SCORE_BY_SIMULATION	Utils.h	/^#define COMPUTE_SCORE_BY_SIMULATION$/;"	d
+Cell	Cell.cpp	/^Cell::Cell() : m_bufferedData((float)g_maxFlowPerCell), m_flowStatistics(nullptr)$/;"	f	class:Cell
+Cell	Cell.h	/^struct Cell$/;"	s
+CellType	Cell.h	/^enum CellType$/;"	g
+CheckConstraintPossible	ExprGenerator.h	/^	bool CheckConstraintPossible(Expression_Node& root, const Constraint* constraint)$/;"	f	class:Expression_Generator	typeref:typename:bool
+ComputeLimits	ExprGenerator.h	/^	static uint ComputeLimits(Expression_Node& node)$/;"	f	class:Expression_Parser	typeref:typename:uint
+Constraint	ExprGenerator.h	/^struct Constraint$/;"	s
+CutCornerDescription	BoardObject.h	/^		CutCornerDescription() { reset(); }$/;"	f	struct:BoardObject::CutCornerDescription
+CutCornerDescription	BoardObject.h	/^	struct CutCornerDescription$/;"	s	struct:BoardObject
+DIRECTION	Cell.h	/^enum DIRECTION$/;"	g
+DIRECTIONAL_MODE	Utils.h	/^#define DIRECTIONAL_MODE /;"	d
+DIRECTION_STRING	Cell.cpp	/^static const char* DIRECTION_STRING[DIR_COUNT]=$/;"	v	typeref:typename:const char * []	file:
+DIRECTION_TYPE	BoardObject.h	/^		enum DIRECTION_TYPE$/;"	g	struct:BoardObject::CutCornerDescription
+DIR_COUNT	Cell.h	/^	DIR_COUNT,$/;"	e	enum:DIRECTION
+DIR_DOWN	Cell.h	/^	DIR_DOWN,$/;"	e	enum:DIRECTION
+DIR_LEFT	Cell.h	/^	DIR_LEFT,$/;"	e	enum:DIRECTION
+DIR_OFFSET	Cell.cpp	/^const TablePos Cell::DIR_OFFSET[DIR_COUNT]=$/;"	m	class:Cell	typeref:typename:const TablePos[]
+DIR_OFFSET	Cell.h	/^	static const TablePos DIR_OFFSET[DIR_COUNT];$/;"	m	struct:Cell	typeref:typename:const TablePos[]
+DIR_RIGHT	Cell.h	/^	DIR_RIGHT,$/;"	e	enum:DIRECTION
+DIR_TYPE_COUNT	BoardObject.h	/^			DIR_TYPE_COUNT,$/;"	e	enum:BoardObject::CutCornerDescription::DIRECTION_TYPE
+DIR_UP	Cell.h	/^	DIR_UP,$/;"	e	enum:DIRECTION
+DONATE_INTERNAL	Utils.h	/^#define DONATE_INTERNAL$/;"	d
+DataFlowStatistics	Cell.h	/^	DataFlowStatistics(const int maxStats) \/\/ Maximum number of ticks for records$/;"	f	class:DataFlowStatistics
+DataFlowStatistics	Cell.h	/^class DataFlowStatistics$/;"	c
+EMPTY_SYMBOL	Cell.h	/^#define EMPTY_SYMBOL /;"	d
+EPSILON	Utils.h	/^#define EPSILON /;"	d
+EVENT_SOURCE_ADD	Cell.h	/^		EVENT_SOURCE_ADD,$/;"	e	enum:Cell::BroadcastEventType
+EVENT_SOURCE_MODIFY	Cell.h	/^		EVENT_SOURCE_MODIFY,$/;"	e	enum:Cell::BroadcastEventType
+EVENT_SOURCE_REMOVE	Cell.h	/^		EVENT_SOURCE_REMOVE,$/;"	e	enum:Cell::BroadcastEventType
+EXPR_GENERATOR_H	ExprGenerator.h	/^#define EXPR_GENERATOR_H$/;"	d
+ElasticResourceEval	Cell.h	/^struct ElasticResourceEval {$/;"	s
+ExprMatchResult	ExprGenerator.h	/^	ExprMatchResult()$/;"	f	struct:ExprMatchResult
+ExprMatchResult	ExprGenerator.h	/^	ExprMatchResult(const int maxRes)$/;"	f	struct:ExprMatchResult
+ExprMatchResult	ExprGenerator.h	/^struct ExprMatchResult$/;"	s
+Expression_Generator	ExprGenerator.h	/^	Expression_Generator()$/;"	f	class:Expression_Generator
+Expression_Generator	ExprGenerator.h	/^class Expression_Generator$/;"	c
+Expression_Node	ExprGenerator.h	/^	Expression_Node(std::string const& value_in = "", bool const& leaf_in = false, bool const& more/;"	f	class:Expression_Node
+Expression_Node	ExprGenerator.h	/^class Expression_Node$/;"	c
+Expression_Parser	ExprGenerator.h	/^class Expression_Parser$/;"	c
+Expression_Scanner	ExprGenerator.h	/^class Expression_Scanner$/;"	c
+FIXED_SEED	config.ini	/^FIXED_SEED=146656   \/\/ The fixed seed in the case you set 1 to the value above$/;"	k
+FIXED_SEED	main.cpp	/^int FIXED_SEED = 0;$/;"	v	typeref:typename:int
+GenerateRandom	ExprGenerator.h	/^	bool GenerateRandom(const uint limit, ExprMatchResult& outResult, const Constraint* constraint /;"	f	class:Expression_Generator	typeref:typename:bool
+INVALID_COST_PER_RESOURCE	Utils.h	/^#define INVALID_COST_PER_RESOURCE /;"	d
+INVALID_FLOW	BoardObject.h	/^#define INVALID_FLOW /;"	d
+INVALID_MAX_OFFSET	Utils.h	/^#define INVALID_MAX_OFFSET /;"	d
+INVALID_MEET_CONSTRAINT	ExprGenerator.h	/^	static const int INVALID_MEET_CONSTRAINT = -1;$/;"	m	class:Expression_Generator	typeref:typename:const int
+INVALID_MIN_OFFSET	Utils.h	/^#define INVALID_MIN_OFFSET /;"	d
+INVALID_POS	Utils.h	/^#define INVALID_POS /;"	d
+Is_Word	ExprGenerator.h	/^	static bool Is_Word(std::string const& it)$/;"	f	class:Expression_Parser	typeref:typename:bool
+Iter	ExprGenerator.h	/^	struct Iter$/;"	s	class:Expression_Node
+LEFTRIGHTONLY_MODE	Utils.h	/^#define LEFTRIGHTONLY_MODE /;"	d
+LogStep	SimulatorBoard.cpp	/^	LogStep(int _id) :id(_id) {}$/;"	f	struct:LogStep	file:
+LogStep	SimulatorBoard.cpp	/^struct LogStep$/;"	s	file:
+MAX_COLS	Utils.h	/^#define MAX_COLS /;"	d
+MAX_MEMBRANE_SIZE	Utils.h	/^#define MAX_MEMBRANE_SIZE /;"	d
+MAX_ROWS	Utils.h	/^#define MAX_ROWS /;"	d
+MIN_MEMBRANE_SIZE	Utils.h	/^#define MIN_MEMBRANE_SIZE /;"	d
+MIN_SCORE	Utils.h	/^#define MIN_SCORE /;"	d
+NOMINMAX	BoardObject.cpp	/^#define NOMINMAX$/;"	d	file:
+NORTH_WEST	BoardObject.h	/^			NORTH_WEST,$/;"	e	enum:BoardObject::CutCornerDescription::DIRECTION_TYPE
+NewDirectionValues	BoardObject.cpp	/^		NewDirectionValues(DIRECTION _prevDir, TablePos& _nextPointer, int _numItemsProduced)$/;"	f	struct:BoardObject::generateMembrane::NewDirectionValues	file:
+NewDirectionValues	BoardObject.cpp	/^	struct NewDirectionValues$/;"	s	function:BoardObject::generateMembrane	file:
+OffsetAndSymbol	BoardObject.h	/^	OffsetAndSymbol(const int _rowOff, const int _colOff, const char _symbol, const bool _isRented)/;"	f	struct:OffsetAndSymbol
+OffsetAndSymbol	BoardObject.h	/^struct OffsetAndSymbol$/;"	s
+OptimalVsInitialReconfigFlow	SimulatorBoard.cpp	/^		OptimalVsInitialReconfigFlow(const int _optFlow, const int _after, const int _configsCount)$/;"	f	struct:Simulator::simulateOptimalReconfigurationScenarios::OptimalVsInitialReconfigFlow	file:
+OptimalVsInitialReconfigFlow	SimulatorBoard.cpp	/^	struct OptimalVsInitialReconfigFlow$/;"	s	function:Simulator::simulateOptimalReconfigurationScenarios	file:
+P_RES_FAILED	BoardObject.h	/^	enum ProduceItemResult { P_RES_SUCCEED, P_RES_FAILED, P_RES_FINISHED };$/;"	e	enum:BoardObject::ProduceItemResult
+P_RES_FINISHED	BoardObject.h	/^	enum ProduceItemResult { P_RES_SUCCEED, P_RES_FAILED, P_RES_FINISHED };$/;"	e	enum:BoardObject::ProduceItemResult
+P_RES_SUCCEED	BoardObject.h	/^	enum ProduceItemResult { P_RES_SUCCEED, P_RES_FAILED, P_RES_FINISHED };$/;"	e	enum:BoardObject::ProduceItemResult
+Parse	ExprGenerator.h	/^	static Expression_Node Parse(std::vector<std::string> const& tokens)$/;"	f	class:Expression_Parser	typeref:typename:Expression_Node
+ParseTreeNodesIterator	ExprGenerator.h	/^	using ParseTreeNodesIterator = std::vector<std::string>::const_iterator;$/;"	t	class:Expression_Parser	typeref:typename:std::vector<std::string>::const_iterator
+ProduceItem	BoardObject.cpp	/^void BoardObject::ProduceItem(TablePos& nextPointer, Expression_Node::Iter& exprIter, const int /;"	f	class:BoardObject	typeref:typename:void
+ProduceItemResult	BoardObject.h	/^	enum ProduceItemResult { P_RES_SUCCEED, P_RES_FAILED, P_RES_FINISHED };$/;"	g	struct:BoardObject
+RUNMODE	Utils.h	/^#define RUNMODE /;"	d
+RentedResourceInfo	BoardObject.h	/^struct RentedResourceInfo$/;"	s
+ResourceAllocatedEval	BoardObject.h	/^		ResourceAllocatedEval() : symbol(EMPTY_SYMBOL), flowBenefit(INVALID_FLOW) {}$/;"	f	struct:BoardObject::ResourceAllocatedEval
+ResourceAllocatedEval	BoardObject.h	/^	struct ResourceAllocatedEval$/;"	s	struct:BoardObject
+SIMULATION_BOARD_HISTORY_SIZE	Utils.h	/^#define SIMULATION_BOARD_HISTORY_SIZE /;"	d
+SIMULATOR_BOARD_H	SimulatorBoard.h	/^#define SIMULATOR_BOARD_H$/;"	d
+Scan	ExprGenerator.h	/^public: static std::vector<std::string> Scan(std::string const& expression, std::vector<char>& o/;"	f	class:Expression_Scanner	typeref:typename:std::vector<std::string>
+SimulationContext	Cell.h	/^struct SimulationContext$/;"	s
+Simulator	SimulatorBoard.cpp	/^Simulator::Simulator(const std::string rowExpr, std::string columnExpr, const int speedOnConduct/;"	f	class:Simulator
+Simulator	SimulatorBoard.h	/^struct Simulator$/;"	s
+SourceInfo	Utils.h	/^	SourceInfo() : currentPower(0.0f), powerTarget(0.0f){}$/;"	f	struct:SourceInfo
+SourceInfo	Utils.h	/^struct SourceInfo$/;"	s
+SubtreeInfo	BoardObject.h	/^	SubtreeInfo() { reset(); }$/;"	f	struct:SubtreeInfo
+SubtreeInfo	BoardObject.h	/^struct SubtreeInfo$/;"	s
+TablePos	Utils.h	/^	TablePos() : row(INVALID_POS), col(INVALID_POS) {}$/;"	f	struct:TablePos
+TablePos	Utils.h	/^	TablePos(int _row, int _col) :row(_row), col(_col) {}$/;"	f	struct:TablePos
+TablePos	Utils.h	/^struct TablePos$/;"	s
+UTILS_H	Utils.h	/^#define UTILS_H$/;"	d
+UniversalHash2D	Cell.h	/^		UniversalHash2D() { reset(); }$/;"	f	struct:Cell::UniversalHash2D
+UniversalHash2D	Cell.h	/^	struct UniversalHash2D$/;"	s	struct:Cell
+add	BoardObject.h	/^	void add(OffsetAndSymbol& offsetAndSymbol)$/;"	f	struct:SubtreeInfo	typeref:typename:void
+add	Utils.h	/^	void add(const float _value, const bool ignoreConstraints = false) $/;"	f	struct:BufferedTrafficData	typeref:typename:void
+addBoardInHistory	SimulatorBoard.cpp	/^void Simulator::addBoardInHistory(const BoardObject* board)$/;"	f	class:Simulator	typeref:typename:void
+addData	Cell.h	/^	void addData(const float _value, const bool _ignoreContraints = false) { m_bufferedData.add(_va/;"	f	struct:Cell	typeref:typename:void
+addNewFlowRecord	Cell.h	/^	void addNewFlowRecord(const float value) { m_flowStatistics->addStat(value); }$/;"	f	struct:Cell	typeref:typename:void
+addNode	ExprGenerator.h	/^	void addNode(Expression_Node& node)$/;"	f	class:Expression_Node	typeref:typename:void
+addPotentialNewCellsAround	BoardObject.cpp	/^void BoardObject::addPotentialNewCellsAround(std::vector<ResourceAllocatedEval>& validSet, const/;"	f	class:BoardObject	typeref:typename:void
+addSource	BoardObject.cpp	/^bool BoardObject::addSource(const TablePos& pos, const SourceInfo& sourceInfo)$/;"	f	class:BoardObject	typeref:typename:bool
+addSource	SimulatorBoard.cpp	/^bool Simulator::addSource(const TablePos& tablePos, const SourceInfo& source)$/;"	f	class:Simulator	typeref:typename:bool
+addStat	Cell.h	/^	void addStat(const float dataFlow)$/;"	f	class:DataFlowStatistics	typeref:typename:void
+afterConfigFlow	SimulatorBoard.cpp	/^		int afterConfigFlow = 0;$/;"	m	struct:Simulator::simulateOptimalReconfigurationScenarios::OptimalVsInitialReconfigFlow	typeref:typename:int	file:
+all	Makefile	/^all:$/;"	t
+amount	ExprGenerator.h	/^	unsigned int amount;$/;"	m	class:Expression_Generator	typeref:typename:unsigned int
+analyzeElasticModel	Cell.cpp	/^bool Cell::analyzeElasticModel(std::ostream& outDebugStream)$/;"	f	class:Cell	typeref:typename:bool
+append	ExprGenerator.h	/^	void append(const std::string& c)$/;"	f	struct:ExprMatchResult	typeref:typename:void
+augment	Cell.cpp	/^void ElasticResourceEval::augment(const BoardObject& copyBoard, const char _symbolAdded, const f/;"	f	class:ElasticResourceEval	typeref:typename:void
+augmentValue	BoardObject.cpp	/^void augmentValue(T& min, T &max, const T value)$/;"	f	typeref:typename:void
+autoSimulate	SimulatorBoard.cpp	/^bool Simulator::autoSimulate(const int numSteps, int minPower, int maxPower, const char* results/;"	f	class:Simulator	typeref:typename:bool
+beginSimulation	Cell.h	/^	void beginSimulation() { m_flowStatistics->clearStats(); }$/;"	f	struct:Cell	typeref:typename:void
+benefit	Cell.h	/^	float benefit = 0.0f;$/;"	m	struct:ElasticResourceEval	typeref:typename:float
+bestBoard_onlySymbols	Cell.h	/^	BoardObject* bestBoard_onlySymbols;	\/\/ Best board found but only with symbols on cells !!! Yo/;"	m	struct:ElasticResourceEval	typeref:typename:BoardObject *
+canCutColumn	BoardObject.cpp	/^bool BoardObject::canCutColumn(const int column) const$/;"	f	class:BoardObject	typeref:typename:bool
+canCutRow	BoardObject.cpp	/^bool BoardObject::canCutRow(const int row) const$/;"	f	class:BoardObject	typeref:typename:bool
+canPasteSubtreeAtPos_noLangCheck	BoardObject.cpp	/^bool BoardObject::canPasteSubtreeAtPos_noLangCheck(const int targetRow, const int targetCol, con/;"	f	class:BoardObject	typeref:typename:bool
+captureDataFlow	Cell.cpp	/^void Cell::captureDataFlow(const SimulationContext& simContext)$/;"	f	class:Cell	typeref:typename:void
+captureFromChildren	Cell.cpp	/^void Cell::captureFromChildren(const float capRemaining, const CellType targetCellType  \/* = CE/;"	f	class:Cell	typeref:typename:void
+cellsHash	Cell.h	/^		bool cellsHash[MAX_ROWS][MAX_COLS];$/;"	m	struct:Cell::UniversalHash2D	typeref:typename:bool[][]
+checkBoardLanguageConstraints	SimulatorBoard.cpp	/^bool Simulator::checkBoardLanguageConstraints() const$/;"	f	class:Simulator	typeref:typename:bool
+checkCol	BoardObject.cpp	/^bool BoardObject::checkCol(const int col, const int startRow, const int endRow) const$/;"	f	class:BoardObject	typeref:typename:bool
+checkConstraintOnLeaf	ExprGenerator.h	/^	static bool checkConstraintOnLeaf(const Expression_Node& root, const Constraint* constraint, ui/;"	f	class:Expression_Generator	typeref:typename:bool
+checkRow	BoardObject.cpp	/^bool BoardObject::checkRow(const int row, const int startCol, const int endCol) const$/;"	f	class:BoardObject	typeref:typename:bool
+checkSourceModifyEvent	SimulatorBoard.cpp	/^void Simulator::checkSourceModifyEvent(BoardObject& board, const float probForSourceEvent, bool&/;"	f	class:Simulator	typeref:typename:void
+children	ExprGenerator.h	/^	std::vector<Expression_Node> children;$/;"	m	class:Expression_Node	typeref:typename:std::vector<Expression_Node>
+clearExprOnCol	BoardObject.cpp	/^void BoardObject::clearExprOnCol(const int col, const int startRow, const uint size)$/;"	f	class:BoardObject	typeref:typename:void
+clearExprOnRow	BoardObject.cpp	/^void BoardObject::clearExprOnRow(const int row, const int startCol, const uint size)$/;"	f	class:BoardObject	typeref:typename:void
+clearStats	Cell.h	/^	void clearStats() { m_head = 0; }$/;"	f	class:DataFlowStatistics	typeref:typename:void
+col	Cell.h	/^	int col; \/\/ target column to paste$/;"	m	struct:AvailablePosInfoAndDeltaScore	typeref:typename:int
+col	Utils.h	/^	int row, col;$/;"	m	struct:TablePos	typeref:typename:int
+colOff	BoardObject.h	/^	int colOff;$/;"	m	struct:OffsetAndSymbol	typeref:typename:int
+collectAllNodesFromRoot	BoardObject.cpp	/^void BoardObject::collectAllNodesFromRoot(const Cell* subtreeRoot, std::vector<Cell *>& outList,/;"	f	class:BoardObject	typeref:typename:void
+computeScoreForLeafAndSource	BoardObject.cpp	/^float BoardObject::computeScoreForLeafAndSource(const TablePos& leafPos, const TablePos& srcPos,/;"	f	class:BoardObject	typeref:typename:float
+constrainFirst	ExprGenerator.h	/^	bool constrainFirst = false;$/;"	m	struct:Constraint	typeref:typename:bool
+constrainLast	ExprGenerator.h	/^	bool constrainLast = false;$/;"	m	struct:Constraint	typeref:typename:bool
+copyDataFrom	BoardObject.cpp	/^void BoardObject::copyDataFrom(const BoardObject& other)$/;"	f	class:BoardObject	typeref:typename:void
+currChildrenIndex	ExprGenerator.h	/^		int currChildrenIndex = 0;$/;"	m	struct:Expression_Node::Iter	typeref:typename:int
+currentPower	Utils.h	/^	float currentPower;	\/\/ This is the actual power of the source$/;"	m	struct:SourceInfo	typeref:typename:float
+cutSubtree	BoardObject.cpp	/^void BoardObject::cutSubtree(const int row, const int col, SubtreeInfo& subtree)$/;"	f	class:BoardObject	typeref:typename:void
+decideCellType	BoardObject.cpp	/^CellType BoardObject::decideCellType(const Cell* startCell, const DIRECTION dir)$/;"	f	class:BoardObject	typeref:typename:CellType
+depthForAutoInitialization	config.ini	/^depthForAutoInitialization=5  		\/\/ How many branches do you want when performing random initia/;"	k
+dir	BoardObject.cpp	/^		DIRECTION dir;			\/\/ The direction where the generation was done$/;"	m	struct:BoardObject::generateMembrane::NewDirectionValues	typeref:typename:DIRECTION	file:
+dirType	BoardObject.h	/^		DIRECTION_TYPE dirType = DIR_TYPE_COUNT;$/;"	m	struct:BoardObject::CutCornerDescription	typeref:typename:DIRECTION_TYPE
+doDataFlowSimulation_serial	BoardObject.cpp	/^void BoardObject::doDataFlowSimulation_serial(const int ticksToSimulate, const bool isRealTick, /;"	f	class:BoardObject	typeref:typename:void
+doDataFlowSimulation_serial	SimulatorBoard.cpp	/^void Simulator::doDataFlowSimulation_serial(const bool withReconfiguration, std::ostream& output/;"	f	class:Simulator	typeref:typename:void
+doDataFlowSimulation_serial_WITHOUT_SIDE_EFFECTS	BoardObject.cpp	/^float BoardObject::doDataFlowSimulation_serial_WITHOUT_SIDE_EFFECTS(const int ticksToSimulate)$/;"	f	class:BoardObject	typeref:typename:float
+doStepByStepSimulation	SimulatorBoard.cpp	/^void Simulator::doStepByStepSimulation(const bool writeHelperOutput, std::istream& inStream, std/;"	f	class:Simulator	typeref:typename:void
+doUnitTests	SimulatorBoard.cpp	/^void Simulator::doUnitTests()$/;"	f	class:Simulator	typeref:typename:void
+doUnitTests	main.cpp	/^void doUnitTests(Simulator& simulator)$/;"	f	typeref:typename:void
+donateFlow	Cell.cpp	/^float Cell::donateFlow(const float maxFlowToDonate)$/;"	f	class:Cell	typeref:typename:float
+duplicate	Cell.h	/^	DataFlowStatistics* duplicate() const$/;"	f	class:DataFlowStatistics	typeref:typename:DataFlowStatistics *
+elasticBoardCompare	Cell.cpp	/^void Cell::elasticBoardCompare(BoardObject& copyBoard, const bool isResourceAdded, const char sy/;"	f	class:Cell	typeref:typename:void
+ev	SimulatorBoard.cpp	/^	int ev = -1;$/;"	m	struct:LogStep	typeref:typename:int	file:
+evaluateMembraneCut	BoardObject.cpp	/^bool BoardObject::evaluateMembraneCut(membraneCutFunctorType func, const DIRECTION dirs[2], cons/;"	f	class:BoardObject	typeref:typename:bool
+evaluateMembraneOptimization	BoardObject.cpp	/^bool BoardObject::evaluateMembraneOptimization(int& row, int &col, DIRECTION& dirToCut, float& f/;"	f	class:BoardObject	typeref:typename:bool
+evaluatePositionsToMove	BoardObject.cpp	/^void BoardObject::evaluatePositionsToMove(const int cellRow, const int cellCol, const SubtreeInf/;"	f	class:BoardObject	typeref:typename:void
+expandExternalTrees	BoardObject.cpp	/^void BoardObject::expandExternalTrees()$/;"	f	class:BoardObject	typeref:typename:void
+expandInternalTrees	BoardObject.cpp	/^void BoardObject::expandInternalTrees()$/;"	f	class:BoardObject	typeref:typename:void
+exprForCols	config.ini	/^exprForCols=7*(4|e)2* \/\/ The expression for columns$/;"	k
+exprForCols	main.cpp	/^std::string exprForCols("(4|6)2*");$/;"	v	typeref:typename:std::string
+exprForRows	config.ini	/^exprForRows=4*(2|7)e*  \/\/ The expression for rows ; This isactually the example in the paper$/;"	k
+exprForRows	main.cpp	/^std::string exprForRows("4*(2|6)");$/;"	v	typeref:typename:std::string
+fileToInitializeFrom	config.ini	/^fileToInitializeFrom=in_dir.txt  		\/\/ If you set 1 to the variable above specify your input fi/;"	k
+fileToInitializeFrom	main.cpp	/^char *fileToInitializeFrom = "in.txt";$/;"	v	typeref:typename:char *
+fillChildrenList	Cell.cpp	/^void Cell::fillChildrenList(Cell* children[], const bool shuffleList \/* = false*\/) const$/;"	f	class:Cell	typeref:typename:void
+fillFollowersList	Cell.cpp	/^void Cell::fillFollowersList(Cell* followers[], const bool shuffleList \/*= false*\/) const$/;"	f	class:Cell	typeref:typename:void
+firstChar	ExprGenerator.h	/^	std::string firstChar = "z";$/;"	m	struct:Constraint	typeref:typename:std::string
+floatEqual	Utils.cpp	/^bool floatEqual(const float val1, const float val2)$/;"	f	typeref:typename:bool
+flowBenefit	BoardObject.h	/^		float flowBenefit; \/\/ The flow benefit - difference between after to previous$/;"	m	struct:BoardObject::ResourceAllocatedEval	typeref:typename:float
+g_247eModelRootCol	main.cpp	/^int g_247eModelRootCol = 4;$/;"	v	typeref:typename:int
+g_247eModelRootRow	main.cpp	/^int g_247eModelRootRow = 4;$/;"	v	typeref:typename:int
+g_allSymbolsSet	SimulatorBoard.cpp	/^std::vector<char> g_allSymbolsSet;$/;"	v	typeref:typename:std::vector<char>
+g_avgTickBetweenSourceEvents	config.ini	/^g_avgTickBetweenSourceEvents=2; \/\/ How many ticks between source events$/;"	k
+g_avgTickBetweenSourceEvents	main.cpp	/^int g_avgTickBetweenSourceEvents = 0;$/;"	v	typeref:typename:int
+g_benefitPerUnitOfFlow	config.ini	/^g_benefitPerUnitOfFlow=1000		\/\/ Benefit added to each unit of flow$/;"	k
+g_benefitPerUnitOfFlow	main.cpp	/^float g_benefitPerUnitOfFlow = 1.0f;$/;"	v	typeref:typename:float
+g_colRXExpr	main.cpp	/^std::regex g_colRXExpr;$/;"	v	typeref:typename:std::regex
+g_costPerResource	config.ini	/^g_costPerResource=4-1,6-1,2-1,7-1,e-1	\/\/ cost for each resource...pairs of (resource type, cos/;"	k
+g_costPerResource	main.cpp	/^float g_costPerResource[256] = { INVALID_COST_PER_RESOURCE };$/;"	v	typeref:typename:float[256]
+g_debugLogOutput	main.cpp	/^std::ostream* g_debugLogOutput;$/;"	v	typeref:typename:std::ostream *
+g_depthForAutoInitialization	main.cpp	/^int g_depthForAutoInitialization = 0;$/;"	v	typeref:typename:int
+g_elasticModelEnabled	config.ini	/^g_elasticModelEnabled=1			\/\/ If elastic model is enabled$/;"	k
+g_elasticModelEnabled	main.cpp	/^bool g_elasticModelEnabled = false;$/;"	v	typeref:typename:bool
+g_energyLossThreshold	config.ini	/^g_energyLossThreshold=1  \/\/ The energy loss threshold to cut subtrees in  the E model/;"	k
+g_energyLossThreshold	main.cpp	/^float g_energyLossThreshold;$/;"	v	typeref:typename:float
+g_maxFlowPerCell	config.ini	/^g_maxFlowPerCell=10000	\/\/ The maximum data flow for any cell$/;"	k
+g_maxFlowPerCell	main.cpp	/^int g_maxFlowPerCell = 100000;$/;"	v	typeref:typename:int
+g_maxPowerForWirelessSource	main.cpp	/^int g_maxPowerForWirelessSource = 1000;$/;"	v	typeref:typename:int
+g_maxPowerVelocityPerTick	main.cpp	/^float g_maxPowerVelocityPerTick = 50.0f;$/;"	v	typeref:typename:float
+g_maxResourcesToRent	config.ini	/^g_maxResourcesToRent=0		\/\/ Maximum number of resources that can be rent$/;"	k
+g_maxResourcesToRent	main.cpp	/^int g_maxResourcesToRent = 1;$/;"	v	typeref:typename:int
+g_minNodesOnRandomTree	main.cpp	/^int g_minNodesOnRandomTree = 20;$/;"	v	typeref:typename:int
+g_minPowerForWirelessSource	main.cpp	/^int g_minPowerForWirelessSource = 10;$/;"	v	typeref:typename:int
+g_numOptimalScenarioSimulations	main.cpp	/^int g_numOptimalScenarioSimulations = 1;$/;"	v	typeref:typename:int
+g_numSourcesOnRandomBoard	main.cpp	/^int g_numSourcesOnRandomBoard = 2;$/;"	v	typeref:typename:int
+g_powerChangeFrequency	main.cpp	/^int g_powerChangeFrequency = 10;$/;"	v	typeref:typename:int
+g_rowRXExpr	main.cpp	/^std::regex g_rowRXExpr;$/;"	v	typeref:typename:std::regex
+g_simulateOptimalVsRandomFlowSampleCount	config.ini	/^g_simulateOptimalVsRandomFlowSampleCount=10; \/\/ How many samples to simulate when doing each f/;"	k
+g_simulateOptimalVsRandomFlowSampleCount	main.cpp	/^int g_simulateOptimalVsRandomFlowSampleCount = 0;$/;"	v	typeref:typename:int
+g_simulateOptimalVsRandomFlowScenarios	main.cpp	/^int g_simulateOptimalVsRandomFlowScenarios = 0;$/;"	v	typeref:typename:int
+g_simulateOptimalVsRandomReconfigScenarios	main.cpp	/^int g_simulateOptimalVsRandomReconfigScenarios = 0;$/;"	v	typeref:typename:int
+g_simulationTicksForDataFlowEstimation	config.ini	/^g_simulationTicksForDataFlowEstimation=10 \/\/ how many ticks to use for determining the average/;"	k
+g_simulationTicksForDataFlowEstimation	main.cpp	/^int g_simulationTicksForDataFlowEstimation = 100;$/;"	v	typeref:typename:int
+g_speedOnConduct	main.cpp	/^int g_speedOnConduct = 10;$/;"	v	typeref:typename:int
+g_symbolToDirection	Cell.cpp	/^const std::unordered_map<char, DIRECTION> Cell::g_symbolToDirection =$/;"	m	class:Cell	typeref:typename:const std::unordered_map<char,DIRECTION>
+g_symbolToDirection	Cell.h	/^	static const std::unordered_map<char, DIRECTION> g_symbolToDirection;$/;"	m	struct:Cell	typeref:typename:const std::unordered_map<char,DIRECTION>
+g_ticksToDelayDataFlowCaptureOnRestructure	config.ini	/^g_ticksToDelayDataFlowCaptureOnRestructure=1 \/\/ How many ticks are needed for a node to change/;"	k
+g_ticksToDelayDataFlowCaptureOnRestructure	main.cpp	/^int g_ticksToDelayDataFlowCaptureOnRestructure = 10;$/;"	v	typeref:typename:int
+g_useEModel	main.cpp	/^int g_useEModel = 1;$/;"	v	typeref:typename:int
+g_verboseBestGatheredSolutions	config.ini	/^g_verboseBestGatheredSolutions=1 	\/\/ Enable to show the best options gathered from all network/;"	k
+g_verboseBestGatheredSolutions	main.cpp	/^bool g_verboseBestGatheredSolutions = true; \/\/ print the best gathered solutions$/;"	v	typeref:typename:bool
+g_verboseElasticModel_All	config.ini	/^g_verboseElasticModel_All=1				\/\/ Level of details for elastic model output$/;"	k
+g_verboseElasticModel_All	main.cpp	/^bool g_verboseElasticModel_All = true;$/;"	v	typeref:typename:bool
+g_verboseElasticModel_Results	config.ini	/^g_verboseElasticModel_Results=1		$/;"	k
+g_verboseElasticModel_Results	main.cpp	/^bool g_verboseElasticModel_Results = true;$/;"	v	typeref:typename:bool
+g_verboseLocalSolutions	config.ini	/^g_verboseLocalSolutions=0 		\/\/ Enable to show all options and score for reorganizing for each /;"	k
+g_verboseLocalSolutions	main.cpp	/^bool g_verboseLocalSolutions = true; \/\/ #define VERBOSE_LOCALSOLUTIONS	\/\/ print the local so/;"	v	typeref:typename:bool
+garbageCollectSubtree	BoardObject.cpp	/^void BoardObject::garbageCollectSubtree(Cell* root)$/;"	f	class:BoardObject	typeref:typename:void
+gatherAllDistinctSymbols	SimulatorBoard.cpp	/^void Simulator::gatherAllDistinctSymbols(std::vector<char>& symbols)$/;"	f	class:Simulator	typeref:typename:void
+gatherNewResourcesPos	Cell.cpp	/^void Cell::gatherNewResourcesPos(Cell* cell, std::vector<TablePos>& outPositions, UniversalHash2/;"	f	class:Cell	typeref:typename:void
+generateCol	BoardObject.cpp	/^void BoardObject::generateCol(const int pivotROW, const int startCol, const int endCol, const in/;"	f	class:BoardObject	typeref:typename:void
+generateMembrane	BoardObject.cpp	/^void BoardObject::generateMembrane(const int minMembraneSize, const int maxMembraneSize)$/;"	f	class:BoardObject	typeref:typename:void
+generateOptimalAndRandomBoard	SimulatorBoard.cpp	/^void Simulator::generateOptimalAndRandomBoard(BoardObject& outOptimalBoard, BoardObject& outRand/;"	f	class:Simulator	typeref:typename:void
+generateRow	BoardObject.cpp	/^void BoardObject::generateRow(const int pivotCol, const int rowStart, const int rowEnd, const in/;"	f	class:BoardObject	typeref:typename:void
+get2DNormDir	Utils.cpp	/^TablePos get2DNormDir(const TablePos& from, const TablePos& to)$/;"	f	typeref:typename:TablePos
+getAvgDataFlow	Cell.h	/^	float getAvgDataFlow() const$/;"	f	class:DataFlowStatistics	typeref:typename:float
+getAvgFlow	Cell.h	/^	float getAvgFlow() const { return m_flowStatistics->getAvgDataFlow(); }$/;"	f	struct:Cell	typeref:typename:float
+getCachedEnergyConsumedStat	Cell.h	/^	float getCachedEnergyConsumedStat() const {$/;"	f	struct:Cell	typeref:typename:float
+getCellTypeRelativeToMembrane	BoardObject.cpp	/^CellType BoardObject::getCellTypeRelativeToMembrane(const int row, const int col) const$/;"	f	class:BoardObject	typeref:typename:CellType
+getCostForResource	Cell.cpp	/^float getCostForResource(char symbol) { return g_costPerResource[symbol]; }$/;"	f	typeref:typename:float
+getCurrentBufferedCap	Cell.h	/^	float getCurrentBufferedCap() const { return m_bufferedData.getCurrentCap(); }$/;"	f	struct:Cell	typeref:typename:float
+getCurrentCap	Utils.h	/^	float getCurrentCap() const { return m_value; }$/;"	f	struct:BufferedTrafficData	typeref:typename:float
+getDirString	Cell.cpp	/^const char* Cell::getDirString(const DIRECTION dir)$/;"	f	class:Cell	typeref:typename:const char *
+getDirectionFromSymbol	Cell.h	/^	static DIRECTION getDirectionFromSymbol(const char symbol) $/;"	f	struct:Cell	typeref:typename:DIRECTION
+getExprIter	BoardObject.cpp	/^Expression_Node::Iter BoardObject::getExprIter(const DIRECTION dir,$/;"	f	class:BoardObject	typeref:typename:Expression_Node::Iter
+getFreeItemsOnCol	BoardObject.cpp	/^int BoardObject::getFreeItemsOnCol(const int col, const int startRow, const bool down) const$/;"	f	class:BoardObject	typeref:typename:int
+getFreeItemsOnRow	BoardObject.cpp	/^int BoardObject::getFreeItemsOnRow(const int row, const int startCol, const bool left) const$/;"	f	class:BoardObject	typeref:typename:int
+getInflexionPointAndConnectMembrane	BoardObject.cpp	/^void BoardObject::getInflexionPointAndConnectMembrane(std::vector<TablePos>& outInflexionPositio/;"	f	class:BoardObject	typeref:typename:void
+getIter	ExprGenerator.h	/^	Expression_Node::Iter getIter(const bool reverse = false) const { return m_parse_tree.getIterat/;"	f	class:Expression_Generator	typeref:typename:Expression_Node::Iter
+getIterator	ExprGenerator.h	/^	Iter getIterator(const bool inverse = false) const$/;"	f	class:Expression_Node	typeref:typename:Iter
+getLastSimulationAvgDataFlowPerUnit	BoardObject.cpp	/^float BoardObject::getLastSimulationAvgDataFlowPerUnit() const$/;"	f	class:BoardObject	typeref:typename:float
+getLeafNodeCapture	Cell.cpp	/^bool SimulationContext::getLeafNodeCapture(const TablePos& leafPos, float& outValue) const$/;"	f	class:SimulationContext	typeref:typename:bool
+getMembraneCells	BoardObject.cpp	/^void BoardObject::getMembraneCells(std::vector<Cell*>& membraneCells)$/;"	f	class:BoardObject	typeref:typename:void
+getMembraneCellsChildren	BoardObject.cpp	/^void BoardObject::getMembraneCellsChildren(std::vector<Cell *>& outList, const CellType targetCe/;"	f	class:BoardObject	typeref:typename:void
+getMinSize	ExprGenerator.h	/^	inline int getMinSize() const$/;"	f	class:Expression_Generator	typeref:typename:int
+getNext	ExprGenerator.h	/^		const Expression_Node* getNext()$/;"	f	struct:Expression_Node::Iter	typeref:typename:const Expression_Node *
+getNumNeighboors	BoardObject.cpp	/^int BoardObject::getNumNeighboors(const TablePos& pos) const$/;"	f	class:BoardObject	typeref:typename:int
+getNumNeighboors	BoardObject.h	/^	int getNumNeighboors(const int row, const int column) const { return getNumNeighboors(TablePos(/;"	f	struct:BoardObject	typeref:typename:int
+getOccupiedItemsOnCol	BoardObject.cpp	/^int BoardObject::getOccupiedItemsOnCol(const int col, const int startRow, const bool down \/* = /;"	f	class:BoardObject	typeref:typename:int
+getOccupiedItemsOnRow	BoardObject.cpp	/^int BoardObject::getOccupiedItemsOnRow(const int row, const int startCol, const bool left \/* = /;"	f	class:BoardObject	typeref:typename:int
+getOppositeDirection	Cell.cpp	/^DIRECTION getOppositeDirection(const DIRECTION dir)$/;"	f	typeref:typename:DIRECTION
+getPower	Utils.h	/^	float getPower() const { return currentPower; }$/;"	f	struct:SourceInfo	typeref:typename:float
+getRandomSourceInfo	Utils.cpp	/^SourceInfo getRandomSourceInfo()$/;"	f	typeref:typename:SourceInfo
+getRandomTablePos	Utils.cpp	/^TablePos getRandomTablePos()$/;"	f	typeref:typename:TablePos
+getRemainingCap	Cell.cpp	/^float Cell::getRemainingCap() const $/;"	f	class:Cell	typeref:typename:float
+getRootCell	BoardObject.h	/^	Cell* getRootCell() { assert(isCoordinateValid(m_rootRow, m_rootCol)); return &m_board[m_rootRo/;"	f	struct:BoardObject	typeref:typename:Cell *
+getRootCell	BoardObject.h	/^	const Cell* getRootCell() const { assert(isCoordinateValid(m_rootRow, m_rootCol)); return &m_bo/;"	f	struct:BoardObject	typeref:typename:const Cell *
+getTarget	Utils.h	/^	float getTarget() const { return powerTarget; }$/;"	f	struct:SourceInfo	typeref:typename:float
+hasNoPrevNode	Cell.h	/^	bool hasNoPrevNode() const$/;"	f	struct:Cell	typeref:typename:bool
+hash	BoardObject.h	/^	template <> struct hash<RentedResourceInfo>$/;"	s	namespace:std
+hash	Utils.h	/^	template <> struct hash<TablePos>$/;"	s	namespace:std
+id	SimulatorBoard.cpp	/^	int id = -1;$/;"	m	struct:LogStep	typeref:typename:int	file:
+indexE	BoardObject.h	/^		int indexS, indexM, indexE;$/;"	m	struct:BoardObject::CutCornerDescription	typeref:typename:int
+indexM	BoardObject.h	/^		int indexS, indexM, indexE;$/;"	m	struct:BoardObject::CutCornerDescription	typeref:typename:int
+indexS	BoardObject.h	/^		int indexS, indexM, indexE;$/;"	m	struct:BoardObject::CutCornerDescription	typeref:typename:int
+init	ExprGenerator.h	/^	void init(const std::string& expression, std::vector<char>& outSymbols)$/;"	f	class:Expression_Generator	typeref:typename:void
+initFlowStatistics	Cell.h	/^	void initFlowStatistics(const int maxNumRecords) { m_flowStatistics = new DataFlowStatistics(ma/;"	f	struct:Cell	typeref:typename:void
+initializeFromFile	config.ini	/^initializeFromFile=1			\/\/ Set 1 if you want to have your own board described in a file (check /;"	k
+initializeFromFile	main.cpp	/^bool initializeFromFile = true;$/;"	v	typeref:typename:bool
+initialize_fromFile	SimulatorBoard.cpp	/^bool Simulator::initialize_fromFile(const char* fileToInitializeFrom)$/;"	f	class:Simulator	typeref:typename:bool
+initialize_random	SimulatorBoard.cpp	/^bool Simulator::initialize_random(int maxBranchDepth)$/;"	f	class:Simulator	typeref:typename:bool
+internalCreateColsLinks	BoardObject.cpp	/^void BoardObject::internalCreateColsLinks(const int middleRow, const int colMin, const int colMa/;"	f	class:BoardObject	typeref:typename:void
+internalCreateLinks	BoardObject.cpp	/^void BoardObject::internalCreateLinks(Cell* prevCell, const DIRECTION dir, const int row, const /;"	f	class:BoardObject	typeref:typename:void
+internalCreateRowsLinks	BoardObject.cpp	/^void BoardObject::internalCreateRowsLinks(const int middleCol, const int rowStart, const int row/;"	f	class:BoardObject	typeref:typename:void
+internalCutSubtree	BoardObject.cpp	/^void BoardObject::internalCutSubtree(const Cell& currCell, const int rowOff, const int colOff, S/;"	f	class:BoardObject	typeref:typename:void
+internalGenerateRandom	ExprGenerator.h	/^	static bool internalGenerateRandom(const Expression_Node& root, uint limit, ExprMatchResult& ou/;"	f	class:Expression_Generator	typeref:typename:bool
+internalPropagateSourceEvent	BoardObject.cpp	/^bool BoardObject::internalPropagateSourceEvent(const Cell::BroadcastEventType srcEventType, Cell/;"	f	class:BoardObject	typeref:typename:bool
+inverse	ExprGenerator.h	/^		bool inverse = false;$/;"	m	struct:Expression_Node::Iter	typeref:typename:bool
+isAddedSource	SimulatorBoard.cpp	/^	bool isAddedSource = false;$/;"	m	struct:LogStep	typeref:typename:bool	file:
+isCellSet	Cell.h	/^		bool isCellSet(const TablePos& pos) const { assert(isCoordinateValid(pos)); return isCellSet(p/;"	f	struct:Cell::UniversalHash2D	typeref:typename:bool
+isCellSet	Cell.h	/^		bool isCellSet(const int row, const int col) const { assert(isCoordinateValid(row, col)); retu/;"	f	struct:Cell::UniversalHash2D	typeref:typename:bool
+isCompliantWithRowColPatterns	BoardObject.cpp	/^bool BoardObject::isCompliantWithRowColPatterns(int onlyTestRow, int onlyTestCol, TablePos* outW/;"	f	class:BoardObject	typeref:typename:bool
+isCoordinateValid	Utils.cpp	/^bool isCoordinateValid(const TablePos& pos)$/;"	f	typeref:typename:bool
+isCoordinateValid	Utils.cpp	/^bool isCoordinateValid(int row, int col)$/;"	f	typeref:typename:bool
+isFixedSeed	config.ini	/^isFixedSeed=1   \/\/ 1 if using fixed seed to have determinstic behavior on randomization$/;"	k
+isFixedSeed	main.cpp	/^bool isFixedSeed = true;$/;"	v	typeref:typename:bool
+isFree	Cell.h	/^	bool isFree() const $/;"	f	struct:Cell	typeref:typename:bool
+isInteriorLeaf	Cell.h	/^	bool isInteriorLeaf() const$/;"	f	struct:Cell	typeref:typename:bool
+isLeaf	Cell.h	/^	bool isLeaf() const $/;"	f	struct:Cell	typeref:typename:bool
+isModfiedSource	SimulatorBoard.cpp	/^	bool isModfiedSource = false;$/;"	m	struct:LogStep	typeref:typename:bool	file:
+isNumberOfCharactersGood	BoardObject.cpp	/^bool BoardObject::isNumberOfCharactersGood() const$/;"	f	class:BoardObject	typeref:typename:bool
+isORNode	ExprGenerator.h	/^	bool isORNode;$/;"	m	class:Expression_Node	typeref:typename:bool
+isPosFree	BoardObject.h	/^	bool isPosFree(const TablePos& pos) const { return m_board[pos.row][pos.col].isFree(); }$/;"	f	struct:BoardObject	typeref:typename:bool
+isPosFree	BoardObject.h	/^	bool isPosFree(const int row, const int col) const { return m_board[row][col].isFree(); }$/;"	f	struct:BoardObject	typeref:typename:bool
+isRemovedSource	SimulatorBoard.cpp	/^	bool isRemovedSource = false;$/;"	m	struct:LogStep	typeref:typename:bool	file:
+isRented	BoardObject.h	/^	bool isRented;$/;"	m	struct:OffsetAndSymbol	typeref:typename:bool
+isRented	Cell.h	/^	bool isRented() const { return m_isRented; }$/;"	f	struct:Cell	typeref:typename:bool
+isReorganization	SimulatorBoard.cpp	/^	bool isReorganization = false;$/;"	m	struct:LogStep	typeref:typename:bool	file:
+isRoot	Cell.cpp	/^bool Cell::isRoot() const$/;"	f	class:Cell	typeref:typename:bool
+isStepByStepSimulatorFromFile	config.ini	/^isStepByStepSimulatorFromFile=0		\/\/ Step by step but using a file as input stream for requests$/;"	k
+isStepByStepSimulatorFromFile	main.cpp	/^bool isStepByStepSimulatorFromFile = false; \/\/ If simulator is from file input$/;"	v	typeref:typename:bool
+isStepByStepSimulatorInteractive	config.ini	/^isStepByStepSimulatorInteractive=1 		\/\/Step by step with debugging options or auto simulator ?$/;"	k
+isStepByStepSimulatorInteractive	main.cpp	/^bool isStepByStepSimulatorInteractive = false; \/\/Step by step or auto simulator ?$/;"	v	typeref:typename:bool
+isValid	Cell.h	/^	bool isValid() const { return benefit > 0.0f; }$/;"	f	struct:ElasticResourceEval	typeref:typename:bool
+lastChar	ExprGenerator.h	/^	std::string lastChar = "z";$/;"	m	struct:Constraint	typeref:typename:std::string
+leaf	ExprGenerator.h	/^	bool leaf;$/;"	m	class:Expression_Node	typeref:typename:bool
+mLeafNodeToCaptureValue	Cell.h	/^	std::unordered_map<TablePos, float> mLeafNodeToCaptureValue;$/;"	m	struct:SimulationContext	typeref:typename:std::unordered_map<TablePos,float>
+m_board	BoardObject.h	/^	Cell m_board[MAX_ROWS][MAX_COLS];$/;"	m	struct:BoardObject	typeref:typename:Cell[][]
+m_board	SimulatorBoard.h	/^	BoardObject m_board; \/\/ The board at the current moment$/;"	m	struct:Simulator	typeref:typename:BoardObject
+m_boardView	Cell.h	/^	BoardObject* m_boardView; \/\/ This is broadcasted by root. I;m the owner of this, even if it's/;"	m	struct:Cell	typeref:typename:BoardObject *
+m_bufferedData	Cell.h	/^	BufferedTrafficData m_bufferedData;$/;"	m	struct:Cell	typeref:typename:BufferedTrafficData
+m_cachedFirstPositionToMeetConstraint	ExprGenerator.h	/^	int m_cachedFirstPositionToMeetConstraint;$/;"	m	class:Expression_Node	typeref:typename:int
+m_cachedLastPositionToMeetConstraint	ExprGenerator.h	/^	int m_cachedLastPositionToMeetConstraint;$/;"	m	class:Expression_Node	typeref:typename:int
+m_cellType	Cell.h	/^	CellType m_cellType = CELL_NOTSET;$/;"	m	struct:Cell	typeref:typename:CellType
+m_colGenerator	BoardObject.h	/^	Expression_Generator* m_colGenerator;$/;"	m	struct:BoardObject	typeref:typename:Expression_Generator *
+m_colGenerator	SimulatorBoard.h	/^	Expression_Generator m_colGenerator;$/;"	m	struct:Simulator	typeref:typename:Expression_Generator
+m_colStrExpr	SimulatorBoard.h	/^	std::string m_colStrExpr;$/;"	m	struct:Simulator	typeref:typename:std::string
+m_column	Cell.h	/^	int m_row, m_column;$/;"	m	struct:Cell	typeref:typename:int
+m_consumed	ExprGenerator.h	/^	int m_consumed; \/\/ length of the result$/;"	m	struct:ExprMatchResult	typeref:typename:int
+m_distanceToRoot	Cell.h	/^	uint m_distanceToRoot;$/;"	m	struct:Cell	typeref:typename:uint
+m_down	Cell.h	/^	Cell *m_left, *m_down; \/\/ Left and right childs - actually left-row and down-column childs in/;"	m	struct:Cell	typeref:typename:Cell **
+m_flowPerTick	Cell.h	/^	float *m_flowPerTick;$/;"	m	class:DataFlowStatistics	typeref:typename:float *
+m_flowStatistics	Cell.h	/^	DataFlowStatistics* m_flowStatistics;$/;"	m	struct:Cell	typeref:typename:DataFlowStatistics *
+m_garbageCollectedResources	BoardObject.h	/^	std::unordered_map<char, int> m_garbageCollectedResources;$/;"	m	struct:BoardObject	typeref:typename:std::unordered_map<char,int>
+m_head	Cell.h	/^	int m_head; \/\/ head of current record$/;"	m	class:DataFlowStatistics	typeref:typename:int
+m_history	SimulatorBoard.h	/^	BoardObject m_history[SIMULATION_BOARD_HISTORY_SIZE];$/;"	m	struct:Simulator	typeref:typename:BoardObject[]
+m_historyIndex	SimulatorBoard.h	/^	int m_historyIndex;$/;"	m	struct:Simulator	typeref:typename:int
+m_isEmpty	Cell.h	/^	bool m_isEmpty;$/;"	m	struct:Cell	typeref:typename:bool
+m_isRented	Cell.h	/^	bool m_isRented;$/;"	m	struct:Cell	typeref:typename:bool
+m_lastEnergyConsumedStat	Cell.h	/^	float m_lastEnergyConsumedStat;$/;"	m	struct:Cell	typeref:typename:float
+m_left	Cell.h	/^	Cell *m_left, *m_down; \/\/ Left and right childs - actually left-row and down-column childs in/;"	m	struct:Cell	typeref:typename:Cell *
+m_maxFlowSize	Utils.h	/^	const float m_maxFlowSize; \/\/ MAXIMUM FLOW SIZE SUPPORTED for this buffer$/;"	m	struct:BufferedTrafficData	typeref:typename:const float
+m_maxStats	Cell.h	/^	int m_maxStats; \/\/ Maximum number of ticks for records$/;"	m	class:DataFlowStatistics	typeref:typename:int
+m_membraneBoundsCols	BoardObject.h	/^	std::pair<int, int> m_membraneBoundsCols;$/;"	m	struct:BoardObject	typeref:typename:std::pair<int,int>
+m_membraneBoundsPerCol	BoardObject.h	/^	std::pair<int, int> m_membraneBoundsPerCol[MAX_COLS + 1];$/;"	m	struct:BoardObject	typeref:typename:std::pair<int,int>[]
+m_membraneBoundsPerRow	BoardObject.h	/^	std::pair<int, int> m_membraneBoundsPerRow[MAX_ROWS + 1];$/;"	m	struct:BoardObject	typeref:typename:std::pair<int,int>[]
+m_membraneBoundsRows	BoardObject.h	/^	std::pair<int, int> m_membraneBoundsRows; \/\/ Minimum and maximum for rows and columns delimit/;"	m	struct:BoardObject	typeref:typename:std::pair<int,int>
+m_numTicksRemainingToUpdateSources	BoardObject.h	/^	int m_numTicksRemainingToUpdateSources; \/\/ THe number of ticks remaining when all sources' ta/;"	m	struct:BoardObject	typeref:typename:int
+m_offsets	BoardObject.h	/^	std::vector<OffsetAndSymbol> m_offsets;$/;"	m	struct:SubtreeInfo	typeref:typename:std::vector<OffsetAndSymbol>
+m_parent	Cell.h	/^	Cell *m_parent;$/;"	m	struct:Cell	typeref:typename:Cell *
+m_parse_tree	ExprGenerator.h	/^	Expression_Node m_parse_tree;$/;"	m	class:Expression_Generator	typeref:typename:Expression_Node
+m_posToSourceMap	BoardObject.h	/^	std::unordered_map<TablePos, SourceInfo> m_posToSourceMap;$/;"	m	struct:BoardObject	typeref:typename:std::unordered_map<TablePos,SourceInfo>
+m_prevDown	Cell.h	/^	Cell* m_prevLeft, *m_prevRight, *m_prevUp, *m_prevDown;$/;"	m	struct:Cell	typeref:typename:Cell ****
+m_prevLeft	Cell.h	/^	Cell* m_prevLeft, *m_prevRight, *m_prevUp, *m_prevDown;$/;"	m	struct:Cell	typeref:typename:Cell *
+m_prevRight	Cell.h	/^	Cell* m_prevLeft, *m_prevRight, *m_prevUp, *m_prevDown;$/;"	m	struct:Cell	typeref:typename:Cell **
+m_prevUp	Cell.h	/^	Cell* m_prevLeft, *m_prevRight, *m_prevUp, *m_prevDown;$/;"	m	struct:Cell	typeref:typename:Cell ***
+m_remainingTicksToDelayDataFlowCapture	Cell.h	/^	int m_remainingTicksToDelayDataFlowCapture;$/;"	m	struct:Cell	typeref:typename:int
+m_rentedResources	BoardObject.h	/^	std::unordered_set<RentedResourceInfo> m_rentedResources;$/;"	m	struct:BoardObject	typeref:typename:std::unordered_set<RentedResourceInfo>
+m_right	Cell.h	/^	Cell* m_right;$/;"	m	struct:Cell	typeref:typename:Cell *
+m_root	SimulatorBoard.h	/^	Cell* m_root;$/;"	m	struct:Simulator	typeref:typename:Cell *
+m_rootCol	BoardObject.h	/^	int m_rootCol = INVALID_POS;$/;"	m	struct:BoardObject	typeref:typename:int
+m_rootRow	BoardObject.h	/^	int m_rootRow = INVALID_POS; $/;"	m	struct:BoardObject	typeref:typename:int
+m_row	Cell.h	/^	int m_row, m_column;$/;"	m	struct:Cell	typeref:typename:int
+m_rowGenerator	BoardObject.h	/^	Expression_Generator* m_rowGenerator;$/;"	m	struct:BoardObject	typeref:typename:Expression_Generator *
+m_rowGenerator	SimulatorBoard.h	/^	Expression_Generator m_rowGenerator;$/;"	m	struct:Simulator	typeref:typename:Expression_Generator
+m_rowStrExpr	SimulatorBoard.h	/^	std::string m_rowStrExpr;$/;"	m	struct:Simulator	typeref:typename:std::string
+m_speedOnConduct	SimulatorBoard.h	/^	int m_speedOnConduct;$/;"	m	struct:Simulator	typeref:typename:int
+m_str	ExprGenerator.h	/^	std::string m_str; \/\/ The actual string$/;"	m	struct:ExprMatchResult	typeref:typename:std::string
+m_symbol	Cell.h	/^	char m_symbol = EMPTY_SYMBOL; \/\/Symbol of this cell$/;"	m	struct:Cell	typeref:typename:char
+m_up	Cell.h	/^	Cell* m_up;$/;"	m	struct:Cell	typeref:typename:Cell *
+m_valid	ExprGenerator.h	/^	bool m_valid; \/\/ True if the result is valid$/;"	m	struct:ExprMatchResult	typeref:typename:bool
+m_value	Utils.h	/^	float m_value; \/\/ TODO: atomic \/ mutex something$/;"	m	struct:BufferedTrafficData	typeref:typename:float
+main	main.cpp	/^int main()$/;"	f	typeref:typename:int
+manhattanDist	Utils.cpp	/^int manhattanDist(const TablePos& p1, const TablePos& p2)$/;"	f	typeref:typename:int
+maxColOffset	BoardObject.h	/^	int minColOffset, maxColOffset;$/;"	m	struct:SubtreeInfo	typeref:typename:int
+maxPowerForWirelessSource	config.ini	/^maxPowerForWirelessSource=1000$/;"	k
+maxPowerVelocityPerTick	config.ini	/^maxPowerVelocityPerTick=50			\/\/ How much per simulation tick can the power of the source modif/;"	k
+maxRowOffset	BoardObject.h	/^	int minRowOffset, maxRowOffset;$/;"	m	struct:SubtreeInfo	typeref:typename:int
+membraneCutFunctorType	BoardObject.h	/^	typedef void (BoardObject::*membraneCutFunctorType)(const int index, const DIRECTION dir, const/;"	t	struct:BoardObject	typeref:typename:void (BoardObject::*)(const int index,const DIRECTION dir,const bool definitive)
+minCharactersToExpand	ExprGenerator.h	/^	std::vector<int> minCharactersToExpand; \/\/ minCharactersToExpand[i] = min number of character/;"	m	class:Expression_Node	typeref:typename:std::vector<int>
+minColOffset	BoardObject.h	/^	int minColOffset, maxColOffset;$/;"	m	struct:SubtreeInfo	typeref:typename:int
+minItems	ExprGenerator.h	/^	int minItems;$/;"	m	class:Expression_Node	typeref:typename:int
+minNodesOnRandomTree	config.ini	/^minNodesOnRandomTree=21 \/\/ Minimum number of nodes when generating a random tree $/;"	k
+minPowerForWirelessSource	config.ini	/^minPowerForWirelessSource=10		\/\/ Min, max power and speed on conduct parameter$/;"	k
+minRowOffset	BoardObject.h	/^	int minRowOffset, maxRowOffset;$/;"	m	struct:SubtreeInfo	typeref:typename:int
+modifySource	BoardObject.cpp	/^bool BoardObject::modifySource(const TablePos& pos, const SourceInfo& sourceInfo)$/;"	f	class:BoardObject	typeref:typename:bool
+modifySource	SimulatorBoard.cpp	/^bool Simulator::modifySource(const TablePos& tablePos, const SourceInfo& source)$/;"	f	class:Simulator	typeref:typename:bool
+mysgn	Utils.h	/^T mysgn(T value)$/;"	f	typeref:typename:T
+nextPointer	BoardObject.cpp	/^		TablePos nextPointer;	\/\/ The position where the generation started$/;"	m	struct:BoardObject::generateMembrane::NewDirectionValues	typeref:typename:TablePos	file:
+numChildrensInObjIterated	ExprGenerator.h	/^		int numChildrensInObjIterated = 0; \/\/ objIterated->children.size();$/;"	m	struct:Expression_Node::Iter	typeref:typename:int
+numItemsProduced	BoardObject.cpp	/^		int numItemsProduced;   \/\/ The number of items generated$/;"	m	struct:BoardObject::generateMembrane::NewDirectionValues	typeref:typename:int	file:
+numOptimalScenarioSimulations	config.ini	/^numOptimalScenarioSimulations=10 \/\/ How many optimal vs random scenarios to simulate$/;"	k
+numReconfigMade	SimulatorBoard.cpp	/^		int numReconfigMade = 0;$/;"	m	struct:Simulator::simulateOptimalReconfigurationScenarios::OptimalVsInitialReconfigFlow	typeref:typename:int	file:
+numSourcesOnRandomBoard	config.ini	/^numSourcesOnRandomBoard=2 \/\/ The number of sources when generating a random board$/;"	k
+numStepsOnAutoSimulator	config.ini	/^numStepsOnAutoSimulator=100		\/\/ Number of steps to run when using the auto simulator$/;"	k
+numStepsOnAutoSimulator	main.cpp	/^int numStepsOnAutoSimulator = 0; \/\/ 1000;$/;"	v	typeref:typename:int
+objIterated	ExprGenerator.h	/^		const Expression_Node* objIterated = nullptr;$/;"	m	struct:Expression_Node::Iter	typeref:typename:const Expression_Node *
+onMsgBroadcastStructure	Cell.cpp	/^void Cell::onMsgBroadcastStructure(BoardObject* structure)$/;"	f	class:Cell	typeref:typename:void
+onMsgDiscoverStructure	Cell.cpp	/^void Cell::onMsgDiscoverStructure(int currRow, int currCol, int depth)$/;"	f	class:Cell	typeref:typename:void
+onMsgReorganizeEnd	Cell.cpp	/^void Cell::onMsgReorganizeEnd(int selectedRow, int selectedCol, const AvailablePosInfoAndDeltaSc/;"	f	class:Cell	typeref:typename:void
+onMsgReorganizeStart	Cell.cpp	/^void Cell::onMsgReorganizeStart(std::vector<AvailablePosInfoAndDeltaScore>& output)$/;"	f	class:Cell	typeref:typename:void
+onRootMsgBroadcastStructure	Cell.cpp	/^void Cell::onRootMsgBroadcastStructure(BoardObject* structure)$/;"	f	class:Cell	typeref:typename:void
+onRootMsgReorganize	Cell.cpp	/^void Cell::onRootMsgReorganize()$/;"	f	class:Cell	typeref:typename:void
+operator !=	Utils.h	/^	bool operator!=(const TablePos& other) const {$/;"	f	struct:TablePos	typeref:typename:bool
+operator ()	BoardObject.h	/^		size_t operator()(const RentedResourceInfo& resource) const$/;"	f	struct:std::hash	typeref:typename:size_t
+operator ()	BoardObject.h	/^	inline Cell& operator()(int row, int col)$/;"	f	struct:BoardObject	typeref:typename:Cell &
+operator ()	BoardObject.h	/^	inline const Cell& operator()(int row, int col) const$/;"	f	struct:BoardObject	typeref:typename:const Cell &
+operator ()	Utils.h	/^		size_t operator()(const TablePos& tablePos) const$/;"	f	struct:std::hash	typeref:typename:size_t
+operator +	Utils.h	/^	TablePos operator+(const TablePos& other) const {		$/;"	f	struct:TablePos	typeref:typename:TablePos
+operator +=	Utils.h	/^	void operator+=(const TablePos& other) {$/;"	f	struct:TablePos	typeref:typename:void
+operator <<	Cell.cpp	/^std::ostream& operator <<(std::ostream& out, const ElasticResourceEval& data)$/;"	f	typeref:typename:std::ostream &
+operator <<	Cell.cpp	/^std::ostream& operator<<(std::ostream& out, const AvailablePosInfoAndDeltaScore& sol)$/;"	f	typeref:typename:std::ostream &
+operator =	BoardObject.cpp	/^void BoardObject::operator=(const BoardObject& other)$/;"	f	class:BoardObject	typeref:typename:void
+operator =	Cell.cpp	/^void Cell::operator=(const Cell& other)$/;"	f	class:Cell	typeref:typename:void
+operator ==	BoardObject.h	/^	bool operator==(const RentedResourceInfo& other) const$/;"	f	struct:RentedResourceInfo	typeref:typename:bool
+operator ==	Utils.h	/^	bool operator==(const TablePos& other) const {$/;"	f	struct:TablePos	typeref:typename:bool
+optimalFlow	SimulatorBoard.cpp	/^		int optimalFlow = 0;$/;"	m	struct:Simulator::simulateOptimalReconfigurationScenarios::OptimalVsInitialReconfigFlow	typeref:typename:int	file:
+overridePower	Utils.h	/^	void overridePower(float value)$/;"	f	struct:SourceInfo	typeref:typename:void
+plus	ExprGenerator.h	/^	bool plus;$/;"	m	class:Expression_Node	typeref:typename:bool
+pos	BoardObject.h	/^		TablePos pos; \/\/ The position where this was attempted$/;"	m	struct:BoardObject::ResourceAllocatedEval	typeref:typename:TablePos
+pos	BoardObject.h	/^	TablePos pos;$/;"	m	struct:RentedResourceInfo	typeref:typename:TablePos
+pos	Cell.h	/^	TablePos pos;$/;"	m	struct:ElasticResourceEval	typeref:typename:TablePos
+powerChangeFrequency	config.ini	/^powerChangeFrequency=10				\/\/ At which frequency (in ticks) to randomize the new power's targe/;"	k
+powerTarget	Utils.h	/^	float powerTarget;	\/\/ This is the power target that this source is trying to achieve$/;"	m	struct:SourceInfo	typeref:typename:float
+printBoard	BoardObject.cpp	/^void BoardObject::printBoard(std::ostream& outStream)$/;"	f	class:BoardObject	typeref:typename:void
+printBoard	SimulatorBoard.cpp	/^void Simulator::printBoard(std::ostream& outStream)$/;"	f	class:Simulator	typeref:typename:void
+printLog	SimulatorBoard.cpp	/^	void printLog(ostream& outStream)$/;"	f	struct:LogStep	typeref:typename:void	file:
+processCostPerResource	main.cpp	/^bool processCostPerResource(const std::string& str)$/;"	f	typeref:typename:bool
+propagateSourceEvent	BoardObject.cpp	/^bool BoardObject::propagateSourceEvent(const Cell::BroadcastEventType srcEventType, const TableP/;"	f	class:BoardObject	typeref:typename:bool
+randRange	Utils.cpp	/^int randRange(int min, int max)$/;"	f	typeref:typename:int
+randUniform	Utils.cpp	/^float randUniform()$/;"	f	typeref:typename:float
+readInput	main.cpp	/^void readInput(const char* configFileName)$/;"	f	typeref:typename:void
+removeLastValue	Cell.h	/^	void removeLastValue()$/;"	f	class:DataFlowStatistics	typeref:typename:void
+removeSource	BoardObject.cpp	/^bool BoardObject::removeSource(const TablePos& pos, const bool allSources)$/;"	f	class:BoardObject	typeref:typename:bool
+removeSource	SimulatorBoard.cpp	/^bool Simulator::removeSource(const TablePos& tablePos)$/;"	f	class:Simulator	typeref:typename:bool
+reorganize	SimulatorBoard.cpp	/^void Simulator::reorganize()$/;"	f	class:Simulator	typeref:typename:void
+reset	BoardObject.cpp	/^void BoardObject::reset(const bool withoutStatistics, const bool resetSymbolsToo)$/;"	f	class:BoardObject	typeref:typename:void
+reset	BoardObject.h	/^		void reset()$/;"	f	struct:BoardObject::CutCornerDescription	typeref:typename:void
+reset	BoardObject.h	/^	void reset()$/;"	f	struct:SubtreeInfo	typeref:typename:void
+reset	Cell.cpp	/^void Cell::UniversalHash2D::reset() { memset(cellsHash, false, sizeof(cellsHash)); }$/;"	f	class:Cell::UniversalHash2D	typeref:typename:void
+reset	Cell.cpp	/^void Cell::reset(const bool resetSymbolToo \/*= true*\/)$/;"	f	class:Cell	typeref:typename:void
+reset	ExprGenerator.h	/^	void reset()$/;"	f	struct:ExprMatchResult	typeref:typename:void
+reset	Utils.h	/^	void reset() { m_value = 0.0f; }$/;"	f	struct:BufferedTrafficData	typeref:typename:void
+resetCapacityUsedInSubtree	Cell.cpp	/^void Cell::resetCapacityUsedInSubtree()$/;"	f	class:Cell	typeref:typename:void
+resetCells	BoardObject.cpp	/^void BoardObject::resetCells(const bool resetSymbolsToo \/*= true*\/)$/;"	f	class:BoardObject	typeref:typename:void
+resetLinks	Cell.cpp	/^void Cell::resetLinks()$/;"	f	class:Cell	typeref:typename:void
+resultsFileName	config.ini	/^resultsFileName=results.txt		\/\/ Where to write the results in the case of autosimulation; The /;"	k
+resultsFileName	main.cpp	/^char *resultsFileName = "results.txt";$/;"	v	typeref:typename:char *
+retractLastFlowRecord	Cell.h	/^	void retractLastFlowRecord() { m_flowStatistics->removeLastValue(); }$/;"	f	struct:Cell	typeref:typename:void
+retractLastSimTickFlowRecord	BoardObject.h	/^	void retractLastSimTickFlowRecord() { getRootCell()->retractLastFlowRecord(); }$/;"	f	struct:BoardObject	typeref:typename:void
+root_checkAddResources	Cell.cpp	/^bool Cell::root_checkAddResources(std::ostream& outDebugStream)$/;"	f	class:Cell	typeref:typename:bool
+root_checkRemoveResources	Cell.cpp	/^bool Cell::root_checkRemoveResources(std::ostream& outDebugStream)$/;"	f	class:Cell	typeref:typename:bool
+row	Cell.h	/^	int row; \/\/ This is the target row to paste$/;"	m	struct:AvailablePosInfoAndDeltaScore	typeref:typename:int
+row	Utils.h	/^	int row, col;$/;"	m	struct:TablePos	typeref:typename:int
+rowOff	BoardObject.h	/^	int rowOff;$/;"	m	struct:OffsetAndSymbol	typeref:typename:int
+runGarbageCollector	BoardObject.cpp	/^void BoardObject::runGarbageCollector(const float threshold, std::ostream& outStream)$/;"	f	class:BoardObject	typeref:typename:void
+saveBoard	SimulatorBoard.cpp	/^bool Simulator::saveBoard(const char* fileNameToSave)$/;"	f	class:Simulator	typeref:typename:bool
+score	Cell.h	/^	float score;$/;"	m	struct:AvailablePosInfoAndDeltaScore	typeref:typename:float
+selectRandomSource	BoardObject.cpp	/^TablePos BoardObject::selectRandomSource() const$/;"	f	class:BoardObject	typeref:typename:TablePos
+selectedColumn	Cell.h	/^	int selectedColumn;$/;"	m	struct:AvailablePosInfoAndDeltaScore	typeref:typename:int
+selectedRow	Cell.h	/^	int selectedRow;$/;"	m	struct:AvailablePosInfoAndDeltaScore	typeref:typename:int
+setAsRented	Cell.h	/^	void setAsRented()$/;"	f	struct:Cell	typeref:typename:void
+setAsSource	Cell.h	/^	void setAsSource() { assert(false && "not implemented"); }$/;"	f	struct:Cell	typeref:typename:void
+setCell	Cell.h	/^		void setCell(const TablePos& pos) { setCell(pos.row, pos.col); }$/;"	f	struct:Cell::UniversalHash2D	typeref:typename:void
+setCell	Cell.h	/^		void setCell(const int row, const int col) { assert(isCoordinateValid(row, col)); cellsHash[ro/;"	f	struct:Cell::UniversalHash2D	typeref:typename:void
+setConstraintFirst	ExprGenerator.h	/^	void setConstraintFirst(const char _firstChar)$/;"	f	struct:Constraint	typeref:typename:void
+setConstraintLast	ExprGenerator.h	/^	void setConstraintLast(const char _lastChar) $/;"	f	struct:Constraint	typeref:typename:void
+setCurrentPower	Utils.h	/^	void setCurrentPower(float value) { currentPower = value; }$/;"	f	struct:SourceInfo	typeref:typename:void
+setEmpty	Cell.h	/^	void setEmpty()$/;"	f	struct:Cell	typeref:typename:void
+setExprOnCol	BoardObject.cpp	/^void BoardObject::setExprOnCol(const int col, const int startRow, const std::string& expr)$/;"	f	class:BoardObject	typeref:typename:void
+setExprOnRow	BoardObject.cpp	/^void BoardObject::setExprOnRow(const int row, const int startCol, const std::string& expr)$/;"	f	class:BoardObject	typeref:typename:void
+setNewCell	BoardObject.cpp	/^void BoardObject::setNewCell(const int targetRow, const int targetCol, const char symbol, const /;"	f	class:BoardObject	typeref:typename:void
+setPowerTarget	Utils.h	/^	void setPowerTarget(float value) { powerTarget = value; }$/;"	f	struct:SourceInfo	typeref:typename:void
+setRootLocation	BoardObject.h	/^	void setRootLocation(const int row, const int col) { m_rootRow = row; m_rootCol = col; }$/;"	f	struct:BoardObject	typeref:typename:void
+setRowAndColGenerators	BoardObject.h	/^	void setRowAndColGenerators(Expression_Generator* rowGenerator, Expression_Generator* colGenera/;"	f	struct:BoardObject	typeref:typename:void
+setSymbol	Cell.h	/^	void setSymbol(const char _symbol)$/;"	f	struct:Cell	typeref:typename:void
+setValid	ExprGenerator.h	/^	void setValid(const bool isValid) { m_valid = isValid; }$/;"	f	struct:ExprMatchResult	typeref:typename:void
+simulateFlowScenario	SimulatorBoard.cpp	/^void Simulator::simulateFlowScenario(BoardObject& board, const float probForSourceEvent, const b/;"	f	class:Simulator	typeref:typename:void
+simulateOptimalReconfigurationScenarios	SimulatorBoard.cpp	/^void Simulator::simulateOptimalReconfigurationScenarios(const int numScenarios, const char* file/;"	f	class:Simulator	typeref:typename:void
+simulateOptimalVsRandomFlowScenario	SimulatorBoard.cpp	/^void Simulator::simulateOptimalVsRandomFlowScenario(const char* fileToInitializeModel, const int/;"	f	class:Simulator	typeref:typename:void
+simulateOptimalVsRandomFlowScenarios	config.ini	/^simulateOptimalVsRandomFlowScenarios=0 \/\/ Simulate the static (optimal starting) vs Random ini/;"	k
+simulateOptimalVsRandomReconfigScenarios	config.ini	/^simulateOptimalVsRandomReconfigScenarios=0 \/\/ Simulate the optimal vs random scenarios and see/;"	k
+simulateTick_serial	BoardObject.cpp	/^void BoardObject::simulateTick_serial(const bool considerForStatistics \/* = true *\/)$/;"	f	class:BoardObject	typeref:typename:void
+simulateTick_serial	Cell.cpp	/^void Cell::simulateTick_serial(const SimulationContext& simContext)$/;"	f	class:Cell	typeref:typename:void
+sourceNewPower	SimulatorBoard.cpp	/^	float sourceNewPower = 0;$/;"	m	struct:LogStep	typeref:typename:float	file:
+sourcePos	SimulatorBoard.cpp	/^	TablePos sourcePos;$/;"	m	struct:LogStep	typeref:typename:TablePos	file:
+speedOnConduct	config.ini	/^speedOnConduct=0$/;"	k
+star	ExprGenerator.h	/^	bool star;$/;"	m	class:Expression_Node	typeref:typename:bool
+std	BoardObject.h	/^namespace std$/;"	n
+std	Utils.h	/^namespace std$/;"	n
+subtract	Utils.h	/^	void subtract(const float _value)$/;"	f	struct:BufferedTrafficData	typeref:typename:void
+subtractData	Cell.h	/^	void subtractData(const float _value) { m_bufferedData.subtract(_value); }$/;"	f	struct:Cell	typeref:typename:void
+symbol	BoardObject.h	/^		char symbol; \/\/ The symbol used$/;"	m	struct:BoardObject::ResourceAllocatedEval	typeref:typename:char
+symbol	BoardObject.h	/^	char symbol;$/;"	m	struct:OffsetAndSymbol	typeref:typename:char
+symbol	BoardObject.h	/^	char symbol;$/;"	m	struct:RentedResourceInfo	typeref:typename:char
+symbolAdded	Cell.h	/^	char symbolAdded = '#';$/;"	m	struct:ElasticResourceEval	typeref:typename:char
+totalMinCharactersToExtend	ExprGenerator.h	/^	uint totalMinCharactersToExtend;$/;"	m	class:Expression_Node	typeref:typename:uint
+trimCommentsAndWhiteSpaces	Utils.cpp	/^void trimCommentsAndWhiteSpaces(std::string& str)$/;"	f	typeref:typename:void
+tryApplySubtree	BoardObject.cpp	/^bool BoardObject::tryApplySubtree(const int row, const int col, const SubtreeInfo& subtree, cons/;"	f	class:BoardObject	typeref:typename:bool
+uint	Utils.h	/^using uint = unsigned int;$/;"	t	typeref:typename:unsigned int
+undoBoard	SimulatorBoard.cpp	/^void Simulator::undoBoard()$/;"	f	class:Simulator	typeref:typename:void
+updateBoardAfterSymbolsInit	BoardObject.cpp	/^void BoardObject::updateBoardAfterSymbolsInit()$/;"	f	class:BoardObject	typeref:typename:void
+updateInternalCellsInfo	BoardObject.cpp	/^void BoardObject::updateInternalCellsInfo()$/;"	f	class:BoardObject	typeref:typename:void
+updateMembraneBounds	BoardObject.cpp	/^void BoardObject::updateMembraneBounds(std::vector<Cell*>& membraneCells)$/;"	f	class:BoardObject	typeref:typename:void
+updateSourcesPower	BoardObject.cpp	/^void BoardObject::updateSourcesPower()$/;"	f	class:BoardObject	typeref:typename:void
+useEModel	config.ini	/^useEModel=1$/;"	k
+validateBoard	SimulatorBoard.h	/^	bool validateBoard()$/;"	f	struct:Simulator	typeref:typename:bool
+value	ExprGenerator.h	/^	std::string value;$/;"	m	class:Expression_Node	typeref:typename:std::string
+variableSourcesPower	config.ini	/^variableSourcesPower=1				\/\/ True if sources' power is allowed to be modified in time without /;"	k
+variableSourcesPower	main.cpp	/^bool variableSourcesPower = false;$/;"	v	typeref:typename:bool
+xOffset	BoardObject.h	/^		int yOffset, xOffset; $/;"	m	struct:BoardObject::CutCornerDescription	typeref:typename:int
+yOffset	BoardObject.h	/^		int yOffset, xOffset; $/;"	m	struct:BoardObject::CutCornerDescription	typeref:typename:int
+~BoardObject	BoardObject.cpp	/^BoardObject::~BoardObject()$/;"	f	class:BoardObject
+~Cell	Cell.cpp	/^Cell::~Cell()$/;"	f	class:Cell
+~DataFlowStatistics	Cell.h	/^	virtual ~DataFlowStatistics() $/;"	f	class:DataFlowStatistics
