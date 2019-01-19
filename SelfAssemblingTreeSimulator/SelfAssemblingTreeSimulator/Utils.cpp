@@ -3,7 +3,7 @@
 #include "Cell.h"
 
 extern int g_minPowerForWirelessSource;
-extern	int g_maxPowerForWirelessSource;
+extern int g_maxPowerForWirelessSource;
 
 int randRange(int min, int max)
 {
@@ -12,7 +12,7 @@ int randRange(int min, int max)
 
 bool floatEqual(const float val1, const float val2)
 {
-	return std::fabsf(val1 - val2) < EPSILON;
+	return fabsf(val1 - val2) < EPSILON;
 }
 
 float randUniform()

@@ -12,9 +12,10 @@
 
 #include <unordered_map>
 #include <string>
-#include <assert.h>
+#include <cassert>
 #include <atomic>
-#include <limits.h>
+#include <climits>
+#include <cmath>
 
 using uint = unsigned int;
 #define MAX_ROWS 20

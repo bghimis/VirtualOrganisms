@@ -9,7 +9,9 @@
 #include <set>
 
 #define NOMINMAX
+#ifdef _WIN32
 #include <windows.h>
+#endif
 
 using namespace std;
 
@@ -1848,7 +1850,9 @@ void BoardObject::evaluatePositionsToMove(const int cellRow, const int cellCol, 
 
 void BoardObject::printBoard(std::ostream& outStream)
 {
+#ifdef _WIN32
 	HANDLE hstdout = GetStdHandle(STD_OUTPUT_HANDLE);
+#endif
 
 	outStream << "Current board: " << endl;
 
@@ -1878,19 +1882,37 @@ void BoardObject::printBoard(std::ostream& outStream)
 				// Put red color if membrane
 				if (isColorChanged)
 				{
-					if (membraneCell)
+					if (membraneCell) {
+#ifdef _WIN32
 						SetConsoleTextAttribute(hstdout, 0x04);
-					else if (isExteriorTree)
+#elif __linux__
+                        outStream << "\033[1;31m";
+#endif
+                    } else if (isExteriorTree) {
+#ifdef _WIN32
 						SetConsoleTextAttribute(hstdout, 0x02);
-					else if (isInteriorTree)
+#elif __linux__
+                        outStream << "\033[1;32m";
+#endif
+                    } else if (isInteriorTree) {
+#ifdef _WIN32
 						SetConsoleTextAttribute(hstdout, 0x03);
+#elif __linux__
+                        outStream << "\033[1;36m";
+#endif
+                    }
 				}
 
 				outStream << ' ' << m_board[i][j].m_symbol << ' ';
 
 				// Revert back to black
-				if (isColorChanged)
+				if (isColorChanged) {
+#ifdef _WIN32
 					SetConsoleTextAttribute(hstdout, 0x0F); 
+#elif __linux__
+                    outStream << "\033[0m";
+#endif
+                }
 			}
 		}
 
