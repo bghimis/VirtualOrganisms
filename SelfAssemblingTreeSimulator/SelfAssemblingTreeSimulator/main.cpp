@@ -14,8 +14,8 @@ std::string exprForRows("4*(2|6)");
 std::string exprForCols("(4|6)2*");
 int g_depthForAutoInitialization = 0;
 float g_energyLossThreshold;
-int g_247eModelRootRow = 4;
-int g_247eModelRootCol = 4;
+int g_247eModelRootRow = 0;
+int g_247eModelRootCol = 9;
 int g_useEModel = 1;
 bool isStepByStepSimulatorInteractive = false; //Step by step or auto simulator ?
 bool isStepByStepSimulatorFromFile = false; // If simulator is from file input
